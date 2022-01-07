@@ -1,10 +1,10 @@
 class Solution {
 public:
-    string makeFancyString(string s) {
+    string makeFancyString(string &s) {
         string ret = "";
         char prev = ' ';
         int cnt = 0;
-        for (auto ch : s) {
+        for (auto &ch : s) {
             if (ch == prev) {
                 cnt++;
             } else {
