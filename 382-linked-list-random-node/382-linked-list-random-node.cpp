@@ -19,8 +19,8 @@ public:
     }
     
     int getRandom() {
-        int r = rand() % nums.size();
-        return nums[r];
+        // int r = rand() % nums.size();
+        // return nums[r];
         int res = head->val;
         ListNode *node = head->next;
         int i = 2;
@@ -32,6 +32,7 @@ public:
             i++;
             node = node->next;
         }
+        return res;
     }
 private:
     vector<int> nums;
