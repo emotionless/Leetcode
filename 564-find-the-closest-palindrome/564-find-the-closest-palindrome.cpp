@@ -60,7 +60,7 @@ public:
         }
     }
     
-    string getMirror(string num) {
+    string getMirror(const string &num) {
         int len = num.size();
         int i = len / 2;
         int j = len - i - 1;
