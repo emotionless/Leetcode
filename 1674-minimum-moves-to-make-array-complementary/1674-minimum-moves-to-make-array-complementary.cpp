@@ -3,7 +3,7 @@ public:
     int minMoves(vector<int>& nums, int limit) {
         int n = nums.size();
         int num = 0, sum = 0, mx = 0;
-        map<int, int> counter;
+        vector<int> counter(limit*2 + 2, 0);
         int tot = n;
         for (int i = 0; i < n/2; i++) {
             int a = nums[i], b = nums[n - i - 1];
@@ -13,8 +13,8 @@ public:
             counter[max(a, b) + limit + 1] += 1;
         }
         int ans = tot;
-        for (auto element : counter) {
-            tot += element.second;
+        for (int i = 0; i <= limit * 2 + 1; i++) {
+            tot += counter[i];
             // cout << element.first << " " << element.second << " " << tot << endl;
             ans = min(ans, tot);
         }
