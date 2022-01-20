@@ -17,12 +17,30 @@ public:
     }
     
     int countSpecialSubsequences(vector<int>& nums) {
-        for (auto &v : nums) {
-            v++;
-        }
+        // for (auto &v : nums) {
+        //     v++;
+        // }
         int n = nums.size();
-        dp.resize(n, vector<int>(4, -1));
-        return solve(0, 0, nums);
+        dp.resize(n + 1, vector<int>(3, 0));
+        // return solve(0, 0, nums);
+        
+        for (int i = n - 1; i >= 0; i--) {
+            int val = nums[i];
+            if (val == 2) {
+                dp[i][val] = (1 + (dp[i+1][val] + dp[i+1][val])%MOD)%MOD;
+                dp[i][0] = dp[i+1][0];
+                dp[i][1] = dp[i+1][1];
+            } else {
+                dp[i][0] = dp[i+1][0];
+                dp[i][1] = dp[i+1][1];
+                dp[i][2] = dp[i+1][2];
+                
+                dp[i][val] = ((dp[i+1][val] + dp[i+1][val])%MOD + dp[i+1][val + 1]) % MOD;
+            }
+            
+            // cout << i << " have: " << dp[i][0] << " " << dp[i][1] << " " << dp[i][2] << endl;
+        }
+        return dp[0][0];
     }
 private:
     vector<vector<int>> dp;
