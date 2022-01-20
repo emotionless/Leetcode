@@ -21,21 +21,23 @@ public:
         //     v++;
         // }
         int n = nums.size();
-        dp.resize(n + 1, vector<int>(3, 0));
+        dp.resize(2, vector<int>(3, 0));
         // return solve(0, 0, nums);
         
         for (int i = n - 1; i >= 0; i--) {
             int val = nums[i];
+            int cur = i%2;
+            int next = (i+1)%2;
             if (val == 2) {
-                dp[i][val] = (1 + (dp[i+1][val] + dp[i+1][val])%MOD)%MOD;
-                dp[i][0] = dp[i+1][0];
-                dp[i][1] = dp[i+1][1];
+                dp[cur][val] = (1 + (dp[next][val] + dp[next][val])%MOD)%MOD;
+                dp[cur][0] = dp[next][0];
+                dp[cur][1] = dp[next][1];
             } else {
-                dp[i][0] = dp[i+1][0];
-                dp[i][1] = dp[i+1][1];
-                dp[i][2] = dp[i+1][2];
+                dp[cur][0] = dp[next][0];
+                dp[cur][1] = dp[next][1];
+                dp[cur][2] = dp[next][2];
                 
-                dp[i][val] = ((dp[i+1][val] + dp[i+1][val])%MOD + dp[i+1][val + 1]) % MOD;
+                dp[cur][val] = ((dp[next][val] + dp[next][val])%MOD + dp[next][val + 1]) % MOD;
             }
             
             // cout << i << " have: " << dp[i][0] << " " << dp[i][1] << " " << dp[i][2] << endl;
