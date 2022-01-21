@@ -6,8 +6,9 @@ public:
         int sum = 0;
         int tot = 0;
         for (int i = 0; i < n; i++) {
-            sum += gas[i] - cost[i];
-            tot += gas[i] - cost[i];
+            int dif = gas[i] - cost[i];
+            sum += dif;
+            tot += dif;
             if (sum < 0) {
                 ans = i + 1;
                 sum = 0;
