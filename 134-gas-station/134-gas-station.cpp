@@ -4,9 +4,9 @@ public:
         int n = gas.size();
         int ans = 0;
         int sum = 0;
-        int tot = 0;
+        int tot = 0, dif = 0;
         for (int i = 0; i < n; i++) {
-            int dif = gas[i] - cost[i];
+            dif = gas[i] - cost[i];
             sum += dif;
             tot += dif;
             if (sum < 0) {
