@@ -18,14 +18,12 @@ class Solution {
             else {
                 dict[nums[i]]! += 1
             }
-            if (dict.count > k) {
-                while (dict.count > k) {
-                    dict[nums[j]]! -= 1
-                    if dict[nums[j]] == 0 {
-                        dict[nums[j]] = nil
-                    }
-                    j += 1
+            while (dict.count > k) {
+                dict[nums[j]]! -= 1
+                if dict[nums[j]] == 0 {
+                    dict[nums[j]] = nil
                 }
+                j += 1
             }
             ans += (i - j + 1)
         }
