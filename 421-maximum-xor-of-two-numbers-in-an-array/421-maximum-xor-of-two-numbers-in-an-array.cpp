@@ -48,6 +48,7 @@ public:
     }
     
     int findMaximumXOR(vector<int>& nums) {
+        if (nums.size() <= 1) return 0;
         node *root = new node();
         insert(root, nums[0]);
         int res = 0;
