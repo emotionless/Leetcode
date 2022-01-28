@@ -37,6 +37,7 @@ public:
         if (word[ind] == '.') {
             for (int i = 0; i < 26; i++) {
                 ret += search(ind + 1, word, cur->next[i]);
+                if (ret) return ret;
             }
         } else {
             ret = search(ind + 1, word, cur->next[id]);
