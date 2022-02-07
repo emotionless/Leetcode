@@ -1,18 +1,13 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
-        unordered_map<char, int> counter;
+        int sum = 0;
         for (auto &ch : s) {
-            counter[ch]--;
+            sum ^= ch;
         }
         for (auto &ch : t) {
-            counter[ch]++;
+            sum ^= ch;
         }
-        for (auto mp : counter) {
-            if (mp.second > 0) {
-                return mp.first;
-            }
-        }
-        assert(0);
+        return (char) sum;
     }
 };
