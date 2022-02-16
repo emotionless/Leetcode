@@ -11,25 +11,20 @@
 class Solution {
 public:
     
-    int getSize(ListNode *cur) {
-        if (cur == nullptr) return 0;
-        return 1 + getSize(cur->next);
-    }
-    
-    ListNode* getNode(ListNode *head, int first) {
-        ListNode *cur = head;
-        while (first > 1) {
-            cur = cur->next;
-            first--;
-        }
-        return cur;
-    }
-    
     ListNode* swapNodes(ListNode* head, int k) {
-        int n = getSize(head);
-        ListNode *firstNode = getNode(head, k);
-        ListNode *lastNode = getNode(head, n - k + 1);
-        swap(firstNode->val, lastNode->val);
+        ListNode *first = nullptr, *second = nullptr;
+        ListNode *cur = head;
+        while (cur != nullptr) {
+            k--;
+            second = (second == nullptr)? nullptr : second->next;
+            if (k == 0) {
+                first = cur;
+                second = head;
+            }
+            cur = cur->next;
+        }
+        swap(first->val, second->val);
+        
         return head;
     }
 };
