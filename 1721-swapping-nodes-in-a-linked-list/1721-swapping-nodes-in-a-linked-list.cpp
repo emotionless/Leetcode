@@ -26,7 +26,6 @@ public:
     }
     
     ListNode* swapNodes(ListNode* head, int k) {
-        if (head->next == nullptr) return head;
         int n = getSize(head);
         ListNode *firstNode = getNode(head, k);
         ListNode *lastNode = getNode(head, n - k + 1);
