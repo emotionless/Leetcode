@@ -5,7 +5,9 @@ public:
         sort(nums.begin(), nums.end());
         set<vector<int>> ans;
         for (int i = 0; i < n; i++) {
+            if (i && nums[i] == nums[i-1]) continue;
             for (int j = i + 1; j < n; j++) {
+                if (j > (i+1) &&  nums[j] == nums[j-1]) continue;
                 int k = j + 1, l = n - 1;
                 while (k < l) {
                     long long sum = 0ll + nums[k] + nums[l] + nums[i] + nums[j];
