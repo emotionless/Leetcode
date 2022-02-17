@@ -14,10 +14,13 @@ public:
                     if (sum == target) {
                         ans.insert({nums[i], nums[j], nums[k], nums[l]});
                         k++;
+                        while (k < n && nums[k] == nums[k-1]) k++;
                     } else if (sum > target) {
                         l--;
+                        while (l > k && nums[l] == nums[l+1]) l--;
                     } else {
                         k++;
+                        while (k < n && nums[k] == nums[k-1]) k++;
                     }
                 }
             }
