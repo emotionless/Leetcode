@@ -12,8 +12,8 @@ public:
         int ans = *container.rbegin() - *container.rend();
         while (*container.rbegin() % 2 == 0) {
             int top = *container.rbegin();
-            container.erase(top);
             container.insert(top/2);
+            container.erase(*container.rbegin());
             ans = min(ans, *container.rbegin() - *container.begin());
         }
         return ans;
