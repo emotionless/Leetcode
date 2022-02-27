@@ -12,25 +12,25 @@
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        queue<pair<TreeNode*, long long>> q;
-        long long ans = 0;
-        q.push(make_pair(root, 1ll));
+        queue<pair<TreeNode*, int>> q;
+        int ans = 0;
+        q.push(make_pair(root, 1));
         while (!q.empty()) {
-            queue<pair<TreeNode*, long long>> tmp;
-            long long mn = LLONG_MAX, mx = LLONG_MIN;
-            long long lowest = LLONG_MAX;
+            queue<pair<TreeNode*, int>> tmp;
+            int mn = INT_MAX, mx = INT_MIN;
+            long long lowest = INT_MAX;
             while (!q.empty()) {
                 auto top = q.front();
                 mn = min(mn, top.second);
                 mx = max(mx, top.second);
                 q.pop();
                 if (top.first->left) {
-                    lowest = min(lowest, top.second*2);
-                    tmp.push(make_pair(top.first->left, top.second * 2 - lowest + 1));
+                    lowest = min(lowest, top.second*2ll);
+                    tmp.push(make_pair(top.first->left, top.second * 2ll - lowest + 1));
                 }
                 if (top.first->right) {
-                    lowest = min(lowest, top.second*2 + 1);
-                    tmp.push(make_pair(top.first->right, top.second *2ll + 1 - lowest + 1));
+                    lowest = min(lowest, top.second*2ll + 1);
+                    tmp.push(make_pair(top.first->right, top.second *2 + 1 - lowest + 1));
                 }
             }
             ans = max(ans, mx - mn + 1);
