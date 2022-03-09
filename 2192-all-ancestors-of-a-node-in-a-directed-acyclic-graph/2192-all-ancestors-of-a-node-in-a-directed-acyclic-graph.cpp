@@ -1,12 +1,12 @@
 class Solution {
 public:
     
-    void dfs(int u, int p, vector<vector<int>> &adj, vector<vector<int>> &ans) {
+    void dfs(int u, int p, vector<vector<int>> &adj, vector<bool> &visited, vector<vector<int>> &ans) {
         visited[u] = true;
         for (auto v : adj[u]) {
             if (visited[v]) continue;
             ans[v].push_back(p);
-            dfs(v, p, adj, ans);
+            dfs(v, p, adj, visited, ans);
         }
     }
     
@@ -18,16 +18,16 @@ public:
         }
         vector<vector<int>> ans;
         ans.resize(n);
+        
+        vector<bool> visited;
         for (int i = 0; i < n; i++) {
             visited.clear();
             visited.resize(n, false);
-            dfs(i, i, adj, ans);
+            dfs(i, i, adj, visited, ans);
         }
         for (auto &v : ans) {
             sort(v.begin(), v.end());
         }
         return ans;
     }
-private:
-    vector<bool> visited;
 };
