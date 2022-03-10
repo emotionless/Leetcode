@@ -35,16 +35,16 @@ public:
         auto secondTwo = getTwoLargeNumber(counter);
         
         int ans = n;
-        if (firstTwo.first.first != secondTwo.first.first) {
-            return ans = min(ans, n - firstTwo.first.second - secondTwo.first.second);
+        if (firstTwo.first.first != secondTwo.first.first) {    // 1 1
+            ans = min(ans, n - firstTwo.first.second - secondTwo.first.second);
         }
-        if (firstTwo.first.first != secondTwo.second.first) {
+        if (firstTwo.first.first != secondTwo.second.first) {   // 1 2
             ans = min(ans, n - firstTwo.first.second - secondTwo.second.second);
         }
-        if (firstTwo.second.first != secondTwo.first.first) {
+        if (firstTwo.second.first != secondTwo.first.first) {   // 2 1
             ans = min(ans, n - firstTwo.second.second - secondTwo.first.second);
         }
-        if (firstTwo.second.first != secondTwo.second.first) {
+        if (firstTwo.second.first != secondTwo.second.first) {  // 2 2
             ans = min(ans, n - firstTwo.second.second - secondTwo.second.second);
         }
         return ans;
