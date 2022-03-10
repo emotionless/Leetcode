@@ -36,7 +36,7 @@ public:
         
         int ans = n;
         if (firstTwo.first.first != secondTwo.first.first) {
-            ans = min(ans, n - firstTwo.first.second - secondTwo.first.second);
+            return ans = min(ans, n - firstTwo.first.second - secondTwo.first.second);
         }
         if (firstTwo.first.first != secondTwo.second.first) {
             ans = min(ans, n - firstTwo.first.second - secondTwo.second.second);
