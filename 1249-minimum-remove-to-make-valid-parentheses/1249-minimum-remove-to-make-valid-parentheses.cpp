@@ -13,17 +13,20 @@ public:
                 }
             }
         }
-        for (int i = s.size() - 1; i >= 0 && cnt > 0; i--) {
+        int len = s.size();
+        for (int i = len - 1; i >= 0 && cnt > 0; i--) {
             if (s[i] == '(') {
                 s[i] = '#';
                 cnt--;
             }
         }
-        string ans;
-        for (auto ch : s) {
-            if (ch != '#')
-                ans += ch;
+        int j = 0;
+        for (int i = 0; i < len; i++) {
+            if (s[i] != '#') {
+                s[j++] = s[i];
+            }
         }
-        return ans;
+        s.resize(j);
+        return s;
     }
 };
