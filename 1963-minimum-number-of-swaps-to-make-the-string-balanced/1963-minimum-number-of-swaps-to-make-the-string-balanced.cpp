@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minSwaps(string s) {
+    int minSwaps(string &s) {
         int cnt = 0;
         int ans = 0;
         
