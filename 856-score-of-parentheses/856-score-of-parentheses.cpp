@@ -7,10 +7,10 @@ public:
         for (auto &ch : s) {
             if (ch == '(') mul *= 2;
             else {
-                if (pre == '(') {
-                    ans += mul / 2;
-                }
                 mul /= 2;
+                if (pre == '(') {
+                    ans += mul;
+                }
             }
             pre = ch;
         }
