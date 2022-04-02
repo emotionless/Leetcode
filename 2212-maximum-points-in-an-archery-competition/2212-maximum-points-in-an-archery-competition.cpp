@@ -32,20 +32,35 @@ public:
     }
     
     vector<int> maximumBobPoints(int numArrows, vector<int>& aliceArrows) {
-        dp.resize(1<<12, vector<int>(12, -1));
-        path.resize(1<<12 + 1, vector<int>(12, -1));
+        int n = aliceArrows.size();
+        int ans = 0;
+        int number = -1;
+        for (int i = 0; i < (1<<n); i++) {
+            int sum = 0;
+            int score = 0;
+            for (int j = 0; j < n; j++) {
+                if (i&(1<<j)) {
+                    sum += aliceArrows[j] + 1;
+                    score += j;
+                }
+            }
+            if (sum <= numArrows) {
+                if (score > ans) {
+                    ans = score;
+                    number = i;
+                }
+            }
+        }
+        vector<int> ret(n, 0);
+        for (int i = 0; i < n; i++) {
+            if (number&(1<<i)) {
+                ret[i] = aliceArrows[i] + 1;
+                numArrows -= (aliceArrows[i] + 1);
+            }
+        }
+        ret[11] += numArrows;
         
-        int res = solve(numArrows, 0, 0, aliceArrows);
-        vector<int> ans;
-        dfs(numArrows, 0, 0, ans);
-        int sum = 0;
-        for (auto v : ans) {
-            sum += v;
-        }
-        if (sum != numArrows) {
-            ans[11] += numArrows - sum;
-        }
-        return ans;
+        return ret;
     }
 private:
     vector<vector<int>> dp, path;
