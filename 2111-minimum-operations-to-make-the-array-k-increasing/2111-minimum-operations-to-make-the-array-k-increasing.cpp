@@ -2,15 +2,14 @@ class Solution {
 public:
     
     int longestIncreasingSubsequence(vector<int> &arr, int st, int k) {
-        multiset<int> container;
+        vector<int> container;
         for (int i = st; i < arr.size(); i+=k) {
             int v = arr[i];
-            auto it = container.lower_bound(v+1);
+            auto it = lower_bound(container.begin(), container.end(), v+1);
             if (it == container.end()) {
-                container.insert(v);
+                container.push_back(v);
             } else {
-                container.erase(it);
-                container.insert(v);
+                *it = v;
             }
         }
         return container.size();
