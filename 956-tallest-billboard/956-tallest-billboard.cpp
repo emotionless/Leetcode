@@ -1,10 +1,12 @@
 class Solution {
 public:
     const int INF = 1e6;
+    const int MID = 2500;
+    
     int solve(int ind, int sum, int &ans, vector<int> &rods) {
-        if (sum < 0 || sum > 5000) return -INF;
+        if (sum < 0 || sum > 2*MID) return -INF;
         if (ind == n) {
-            if (sum == 2500) {
+            if (sum == MID) {
                 dp[ind][sum] = 0;
             } else {
                 dp[ind][sum] = -INF;
@@ -26,9 +28,9 @@ public:
     int tallestBillboard(vector<int>& rods) {
         n = rods.size();
         int midSum = accumulate(rods.begin(), rods.end(), 0) / 2;
-        dp.resize(n + 1, vector<int>(5009, -1));
+        dp.resize(n + 1, vector<int>(2*MID + 1, -1));
         int ans = 0;
-        return solve(0, 2500, ans, rods)/2;
+        return solve(0, MID, ans, rods)/2;
     }
 private:
     int n;
