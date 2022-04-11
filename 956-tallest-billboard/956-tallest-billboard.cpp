@@ -6,12 +6,7 @@ public:
     int solve(int ind, int sum, vector<int> &rods) {
         if (sum < 0 || sum > 2*MID) return -INF;
         if (ind == n) {
-            if (sum == MID) {
-                dp[ind][sum] = 0;
-            } else {
-                dp[ind][sum] = -INF;
-            }
-            return dp[ind][sum];
+            return sum == MID? 0: -INF;
         }
         int &ret = dp[ind][sum];
         if (ret != -1) return ret;
