@@ -27,7 +27,6 @@ public:
     
     int tallestBillboard(vector<int>& rods) {
         n = rods.size();
-        int midSum = accumulate(rods.begin(), rods.end(), 0) / 2;
         dp.resize(n + 1, vector<int>(2*MID + 1, -1));
         
         return solve(0, MID, rods)/2;
