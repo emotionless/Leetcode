@@ -6,7 +6,7 @@ public:
             freq[task]++;
         }
         int round = 0;
-        for (auto element : freq) {
+        for (auto &element : freq) {
             if (element.second == 1) return -1;
             round += (element.second + 2)/3;
         }
