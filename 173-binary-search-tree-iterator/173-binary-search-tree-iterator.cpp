@@ -16,6 +16,7 @@ public:
         if (cur == nullptr) return pre;
         TreeNode *now = inorder(cur->left, pre);
         now->right = cur;
+        now->left = nullptr;
         TreeNode *tmp = cur->right;
         now = now->right;
         return inorder(cur->right, now);
