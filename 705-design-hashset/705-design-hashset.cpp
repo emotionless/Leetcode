@@ -1,7 +1,7 @@
 class MyHashSet {
 public:
     MyHashSet() {
-        memset(vis, false, sizeof (vis));
+        vis.resize(1e6 + 1, false);
     }
     
     void add(int key) {
@@ -16,7 +16,7 @@ public:
         return vis[key];
     }
 private:
-    bool vis[1000001];
+    vector<bool> vis;
 };
 
 /**
