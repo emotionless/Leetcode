@@ -11,13 +11,21 @@ public:
     
     void put(int key, int value) {
         int h = getHash(key);
+        for (auto it = arr[h].begin(); it != arr[h].end(); it++) {
+            if (it->first == key) {
+                it->second = value;
+                return;
+            }
+        }
         arr[h].push_back({key, value});
+        
+        return;
     }
     
     int get(int key) {
         int h = getHash(key);
-        for (int i = arr[h].size() - 1; i >= 0; i--) {
-            if (arr[h][i].first == key) return arr[h][i].second;
+        for (auto it = arr[h].begin(); it != arr[h].end(); it++) {
+            if (it->first == key) return it->second;
         }
         
         return -1;
@@ -25,13 +33,16 @@ public:
     
     void remove(int key) {
         int h = getHash(key);
-        for (int i = arr[h].size() - 1; i >= 0; i--) {
-            if (arr[h][i].first == key) arr[h][i].second = -1;
+        for (auto it = arr[h].begin(); it != arr[h].end(); it++) {
+            if (it->first == key) {
+                arr[h].erase(it);
+                return;
+            }
         }
     }
 private:
     const int MOD = 1000;
-    vector<vector<pair<int, int>>> arr;
+    vector<list<pair<int, int>>> arr;
 };
 
 /**
