@@ -13,7 +13,7 @@ public:
         }
     }
     
-    string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
+    string smallestStringWithSwaps(string &s, vector<vector<int>>& pairs) {
         int n = s.size();
         adj.resize(n);
         for (auto &v : pairs) {
