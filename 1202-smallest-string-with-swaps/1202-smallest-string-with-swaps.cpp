@@ -1,9 +1,9 @@
 class Solution {
 public:
     
-    void dfs(int ind, set<int> &indices, multiset<char> &letters, string &s) {
-        indices.insert(ind);
-        letters.insert(s[ind]);
+    void dfs(int ind, vector<int> &indices, vector<char> &letters, string &s) {
+        indices.push_back(ind);
+        letters.push_back(s[ind]);
         
         visited[ind] = true;
         for (auto &v : adj[ind]) {
@@ -23,14 +23,15 @@ public:
         visited.resize(n, false);
         for (int i = 0; i < n; i++) {
             if (visited[i] == false) {
-                set<int> indices;
-                multiset<char> letters;
+                vector<int> indices;
+                vector<char> letters;
 
                 dfs(i, indices, letters, s);
-                auto it = letters.begin();
-                for (auto now : indices) {
-                    s[now] = *it;
-                    it++;
+                sort(indices.begin(), indices.end());
+                sort(letters.begin(), letters.end());
+                int sz = indices.size();
+                for(int i = 0; i < sz; i++) {
+                    s[indices[i]] = letters[i];
                 }
             }
         }
