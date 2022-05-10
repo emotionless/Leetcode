@@ -7,6 +7,7 @@ public:
         for (int i = 0; i < n; i++) {
             if (pos.find(cards[i]) != pos.end()) {
                 ans = min(ans, i - pos[cards[i]]);
+                if (ans == 1) return 2;
             } 
             pos[cards[i]] = i;
         }
