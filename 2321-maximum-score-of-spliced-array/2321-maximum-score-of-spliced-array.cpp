@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    int getMaxSum(const vector<int> &arr1, const vector<int> &arr2) {
+    int getMaxSum(vector<int> &arr1, vector<int> &arr2) {
         int n = arr1.size();
         int sum = 0;
         int mx = 0;
