@@ -3,28 +3,20 @@ public:
     
     int maximumsSplicedArray(vector<int>& nums1, vector<int>& nums2) {
         int n = nums1.size();
-        int sum1 = accumulate(nums1.begin(), nums1.end(), 0);
-        int sum2 = accumulate(nums2.begin(), nums2.end(), 0);
-        int ans = max(sum1, sum2);
-        int sum = 0;
-        int cur = 0;
+        int num1Sum = accumulate(nums1.begin(), nums1.end(), 0);
+        int num2Sum = accumulate(nums2.begin(), nums2.end(), 0);
+        int ans = max(num1Sum, num2Sum);
+        int sum1 = 0, sum2 = 0;
+        int cur1 = 0, cur2 = 0;
         for (int i = 0; i < n; i++) {
-            int num = (nums1[i] - nums2[i]);
-            sum += num;
-            if (sum < 0) sum = 0;
-            cur = max(cur, sum);
+            sum1 += (nums1[i] - nums2[i]);
+            sum2 += (nums2[i] - nums1[i]);
+            if (sum1 < 0) sum1 = 0;
+            if (sum2 < 0) sum2 = 0;
+            cur1 = max(cur1, sum1);
+            cur2 = max(cur2, sum2);
         }
-        ans = max(ans, sum2 + cur);
-        sum = 0;
-        cur = 0;
-        for (int i = 0; i < n; i++) {
-            int num = (nums2[i] - nums1[i]);
-            sum += num;
-            if (sum < 0) sum = 0;
-            cur = max(cur, sum);
-        }
-        ans = max(ans, sum1 + cur);
-        
+        ans = max(ans, max(num1Sum + cur2, num2Sum + cur1));
         return ans;
     }
 };
