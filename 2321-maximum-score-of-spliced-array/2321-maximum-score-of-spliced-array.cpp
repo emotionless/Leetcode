@@ -1,24 +1,26 @@
 class Solution {
 public:
     
+    int getMaxSum(const vector<int> &arr1, const vector<int> &arr2) {
+        int n = arr1.size();
+        int sum = 0;
+        int mx = 0;
+        for (int i = 0; i < n; i++) {
+            sum += arr1[i] - arr2[i];
+            if (sum < 0) sum = 0;
+            mx = max(mx, sum);
+        }
+        return mx;
+    }
+    
     int maximumsSplicedArray(vector<int>& nums1, vector<int>& nums2) {
         int n = nums1.size();
-        int num1Sum = 0;
-        int num2Sum = 0;
-        int ans = max(num1Sum, num2Sum);
-        int sum1 = 0, sum2 = 0;
-        int cur1 = 0, cur2 = 0;
-        for (int i = 0; i < n; i++) {
-            num1Sum += nums1[i];
-            num2Sum += nums2[i];
-            sum1 += (nums1[i] - nums2[i]);
-            sum2 += (nums2[i] - nums1[i]);
-            if (sum1 < 0) sum1 = 0;
-            if (sum2 < 0) sum2 = 0;
-            cur1 = max(cur1, sum1);
-            cur2 = max(cur2, sum2);
-        }
-        ans = max(ans, max(num1Sum + cur2, num2Sum + cur1));
+        int sum1 = accumulate(nums1.begin(), nums1.end(), 0);
+        int sum2 = accumulate(nums2.begin(), nums2.end(), 0);
+        int ans = max(sum1, sum2);
+        ans = max(ans, sum2 + getMaxSum(nums1, nums2));
+        ans = max(ans, sum1 + getMaxSum(nums2, nums1));
+        
         return ans;
     }
 };
