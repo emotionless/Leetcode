@@ -6,7 +6,7 @@ public:
             sum += num&1?0:num;
         }
         vector<int> ans;
-        for (auto q : queries) {
+        for (auto &q : queries) {
             int val = q[0];
             int ind = q[1];
             if (nums[ind]%2==0) sum -= nums[ind];
