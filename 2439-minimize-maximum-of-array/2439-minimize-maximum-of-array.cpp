@@ -13,6 +13,7 @@ public:
     
     int minimizeArrayValue(vector<int>& nums) {
         int n = nums.size();
+        /*
         int st = 0, ed = *max_element(nums.begin(), nums.end());
         int ans = ed;
         while (st <= ed) {
@@ -24,6 +25,14 @@ public:
                 st = mid + 1;
             }
         }
+        */
+        long long sum = 0;
+        long long ans = 0;
+        for (int i = 0; i < n; i++) {
+            sum += nums[i];
+            ans = max(ans, sum/(i+1) + (sum%(i+1)?1:0));
+        }
+        
         return ans;
     }
 };
