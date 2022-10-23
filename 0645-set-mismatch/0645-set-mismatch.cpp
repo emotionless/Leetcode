@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // time: O(n), space: O(1)
     vector<int> findErrorNums(vector<int>& nums) {
         int n = nums.size();
         int allXor = 0;
