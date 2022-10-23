@@ -2,18 +2,40 @@ class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
         int n = nums.size();
-        sort(nums.begin(), nums.end());
-        int ind = 1, duplicate = n, missing = n;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] > ind) {
-                missing = ind;
-                ind++;
-            } else if (nums[i] < ind) {
-                duplicate = nums[i];
-                ind--;
-            }
-            ind++;
+        int allXor = 0;
+        for (int i = 1; i <= n; i++) {
+            allXor ^= i;
         }
-        return {duplicate, missing};
+        int sum = allXor;
+        for (auto &num : nums) {
+            sum ^= num;
+        }
+        int firstBit = 0;
+        for (int i = 0; i < 31; i++) {
+            if (sum&(1<<i)) {
+                firstBit = i;
+                break;
+            }
+        }
+        int firstBox = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i&(1<<firstBit)) {
+                firstBox ^= i;
+            }
+        }
+        int lastBox = allXor ^ firstBox;
+        for (auto &num : nums) {
+            if (num&(1<<firstBit)) {
+                firstBox ^= num;
+            } else {
+                lastBox ^= num;
+            }
+        }
+        for (auto &num : nums) {
+            if (num == firstBox) {
+                return {firstBox, lastBox};
+            }
+        }
+        return {lastBox, firstBox};
     }
 };
