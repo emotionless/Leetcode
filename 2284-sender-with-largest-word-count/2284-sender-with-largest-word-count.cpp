@@ -9,9 +9,7 @@ public:
         for (int i = 0; i < n; i++) {
             messageCount[senders[i]] += count(begin(messages[i]), end(messages[i]), ' ') + 1;
             int cnt = messageCount[senders[i]];
-            if (cnt == mx && senders[i] > senders[ans]) {
-                ans = i;
-            } else if (cnt > mx) {
+            if (cnt > mx || (cnt == mx && senders[i] > senders[ans])) {
                 ans = i;
                 mx = cnt;
             }
