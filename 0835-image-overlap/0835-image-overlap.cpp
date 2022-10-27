@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // IDEA: https://leetcode.com/problems/image-overlap/discuss/130623/C%2B%2BJavaPython-Straight-Forward
+    
     int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {
         vector<int> arr1;
         vector<int> arr2;
