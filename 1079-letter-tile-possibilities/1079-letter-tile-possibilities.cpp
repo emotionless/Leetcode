@@ -2,7 +2,11 @@ class Solution {
 public:
     
     void solve(int mask, int n, string &str, string &tiles) {
-        container.insert(str);
+        if (container.find(str) == container.end()) 
+            container.insert(str);
+        else
+            return;
+        
         for (int i = 0; i < n; i++) {
             if (!(mask&(1<<i))) {
                 str += tiles[i];
