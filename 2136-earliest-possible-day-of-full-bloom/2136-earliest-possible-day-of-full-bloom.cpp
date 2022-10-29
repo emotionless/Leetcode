@@ -9,7 +9,7 @@ public:
     };
     
     struct comparator {
-        bool operator() (const node &A, const node &B) {
+        inline bool operator() (const node &A, const node &B) {
             if (B.grow == A.grow) {
                 return A.plant > B.plant;
             }
