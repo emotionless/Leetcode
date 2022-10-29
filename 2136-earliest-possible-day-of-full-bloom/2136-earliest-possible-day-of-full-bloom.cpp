@@ -10,8 +10,6 @@ public:
     
     struct comparator {
         bool operator() (const node &A, const node &B) {
-            int sumA = A.plant + A.grow;
-            int sumB = B.plant + B.grow;
             if (B.grow == A.grow) {
                 return A.plant > B.plant;
             }
