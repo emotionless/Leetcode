@@ -15,7 +15,7 @@ public:
             int aj = j + dc[k];
             if (ai < 0 || ai >= N || aj < 0 || aj >= M || mat[ai][aj] == false) continue;
             if (ai == preI && aj == preJ) continue;
-            return ret = dfs(ai, aj, i, j, mat);
+            ret = dfs(ai, aj, i, j, mat);
         }
         return ret;
     }
