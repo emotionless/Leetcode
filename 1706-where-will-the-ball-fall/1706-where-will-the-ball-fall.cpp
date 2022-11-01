@@ -8,7 +8,7 @@ public:
     int dfs(int i, int j, int preI, int preJ, vector<vector<int>> &mat) {
         if (i == (N - 1)) return j/3;
         int &ret = dp[i][j];
-        if (ret != -1) return ret;
+        if (ret != -2) return ret;
         ret = -1;
         for (int k = 0; k < 3; k++) {
             int ai = i + dr[k];
@@ -16,6 +16,7 @@ public:
             if (ai < 0 || ai >= N || aj < 0 || aj >= M || mat[ai][aj] == false) continue;
             if (ai == preI && aj == preJ) continue;
             ret = dfs(ai, aj, i, j, mat);
+            if (ret >= 0) return ret;
         }
         return ret;
     }
@@ -33,7 +34,7 @@ public:
             }
         }
         N = n*3, M = m*3;
-        dp.resize(n*3, vector<int>(m*3, -1));
+        dp.resize(n*3, vector<int>(m*3, -2));
         vector<int> ans;
         for (int i = 0; i < m; i++) {
             ans.push_back(dfs(0, i*3 + 1, 0, i*3 + 1, mat));
