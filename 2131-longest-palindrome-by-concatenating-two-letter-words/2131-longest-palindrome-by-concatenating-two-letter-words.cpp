@@ -1,12 +1,6 @@
 class Solution {
 public:
     
-    string rev(string str) {
-        reverse(str.begin(), str.end());
-        
-        return str;
-    }
-    
     int longestPalindrome(vector<string>& words) {
         unordered_map<string, int> counter;
         for (auto &word : words) {
@@ -14,7 +8,9 @@ public:
         }
         int ans = 0;
         for (auto &word : words) {
-            string r = rev(word);
+            string r = "";
+            r += word[1];
+            r += word[0];
             if (word == r && counter[word] == 1) continue;
             if (counter[word] > 0 && counter[r] > 0) {
                 ans += 4;
