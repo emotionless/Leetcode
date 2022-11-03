@@ -1,23 +1,25 @@
 class Solution {
 public:
+    
+    string rev(string str) {
+        reverse(str.begin(), str.end());
+        
+        return str;
+    }
+    
     int longestPalindrome(vector<string>& words) {
-        int sum = 0;
         unordered_map<string, int> counter;
-        for (auto word : words) {
-            string rev = "";
-            rev += word[1];
-            rev += word[0];
+        for (auto &word : words) {
             counter[word]++;
         }
-        for (auto word : words) {
-            string rev = "";
-            rev += word[1];
-            rev += word[0];
-            if (word == rev) continue;
-            if (counter[word] > 0 && counter[rev] > 0) {
-                sum += 4;
-                counter[word] -= 1;
-                counter[rev] -= 1;
+        int ans = 0;
+        for (auto &word : words) {
+            string r = rev(word);
+            if (word == r && counter[word] == 1) continue;
+            if (counter[word] > 0 && counter[r] > 0) {
+                ans += 4;
+                counter[word]--;
+                counter[r]--;
             }
         }
         int mx = 0;
@@ -25,11 +27,8 @@ public:
             string rev = "";
             rev += i;
             rev += i;
-            mx = max(mx, counter[rev]%2);
-            if (counter[rev] > 0) {
-                sum += (counter[rev]/2)*4;
-            }
+            mx = max(mx, 2*counter[rev]);
         }
-        return sum + mx * 2;
+        return mx + ans;
     }
 };
