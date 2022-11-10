@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string removeDuplicates(string s) {
+    string removeDuplicates(string &s) {
         string stak;
         for (auto &ch : s) {
             if (stak.size() && stak.back() == ch) {
