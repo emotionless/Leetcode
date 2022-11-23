@@ -1,7 +1,7 @@
 class Solution {
 public:
     const int MOD = 1e9 + 7;
-    inline bool isPrime(char &ch) {
+    inline bool isPrime(char ch) {
         return st.count(ch);
     }
     
