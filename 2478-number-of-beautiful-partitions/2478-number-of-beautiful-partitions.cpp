@@ -17,7 +17,8 @@ public:
             if (is) ret = solve(ind + minLength - 1, k, str, false);
             else ret = solve(ind + 1, k, str, false);
         } else {
-            ret = (solve(ind + 1, k - 1, str, true) + solve(ind + 1, k, str, false)) % MOD;
+            ret = (solve(ind + 1, k - 1, str, true) + solve(ind + 1, k, str, false)) ;
+            if (ret >= MOD) ret -= MOD;
         }
         return ret;
     }
