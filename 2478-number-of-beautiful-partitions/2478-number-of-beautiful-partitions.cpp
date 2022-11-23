@@ -1,8 +1,8 @@
 class Solution {
 public:
     const int MOD = 1e9 + 7;
-    inline bool isPrime(char ch) {
-        return st.count(ch);
+    inline bool isPrime(char &ch) {
+        return ch == '2' || ch == '3' || ch == '5' || ch == '7';
     }
     
     int solve(int ind, int k, string &str, bool is) {
