@@ -17,16 +17,14 @@ public:
             if (is) ret = solve(ind + minLength - 1, k, str, false);
             else ret = solve(ind + 1, k, str, false);
         } else {
-            ret = (solve(ind + 1, k - 1, str, true) + solve(ind + 1, k, str, false)) ;
-            if (ret >= MOD) ret -= MOD;
+            ret = (solve(ind + 1, k - 1, str, true) + solve(ind + 1, k, str, false)) % MOD;
         }
         return ret;
     }
     
     int beautifulPartitions(string s, int k, int ml) {
-        int len = s.size();
-        n = len;
-        dp.resize(len, vector<vector<int>>(k + 1, vector<int>(2, -1)));
+        n = s.size();
+        dp.resize(n, vector<vector<int>>(k + 1, vector<int>(2, -1)));
         minLength = ml;
         
         return solve(0, k, s, true);
