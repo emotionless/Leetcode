@@ -26,16 +26,11 @@ public:
         int len = s.size();
         n = len;
         dp.resize(len, vector<vector<int>>(k + 1, vector<int>(2, -1)));
-        st.insert('2');
-        st.insert('3');
-        st.insert('5');
-        st.insert('7');
         minLength = ml;
         
         return solve(0, k, s, true);
     }
 private:
     int n, minLength;
-    unordered_set<char> st;
     vector<vector<vector<int>>> dp;
 };
