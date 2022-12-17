@@ -6,12 +6,6 @@ public:
         long long num;
         ss>>num;
         return num;
-        // int len = str.length();
-        // long long ret = 0;
-        // for(int i = 0; i < len; i++) {
-        //     ret = ret * 10 + (str[i] - '0');
-        // }
-        // return ret;
     }
     int evalRPN(vector<string>& tokens) {
         int n = tokens.size();
