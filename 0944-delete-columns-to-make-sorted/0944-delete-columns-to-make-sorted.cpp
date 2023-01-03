@@ -6,7 +6,6 @@ public:
         int ans = 0;
         for (int i = 0; i < m; i++) {
             char pre = '0';
-            bool ck = false;
             for (int j = 0; j < n; j++) {
                 if (strs[j][i] < pre) {
                     ans++;
