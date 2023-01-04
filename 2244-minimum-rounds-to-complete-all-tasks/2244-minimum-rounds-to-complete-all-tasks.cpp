@@ -7,7 +7,9 @@ public:
         }
         int round = 0;
         for (auto &element : freq) {
-            if (element.second == 1) return -1;
+            if (element.second == 1) {
+                return -1;
+            }
             round += (element.second + 2)/3;
         }
         return round;
