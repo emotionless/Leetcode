@@ -20,7 +20,7 @@ public:
         return ret;
     }
     
-    vector<int> countSubTrees(int n, vector<vector<int>>& edges, string labels) {
+    vector<int> countSubTrees(int n, vector<vector<int>>& edges, string &labels) {
         adj.resize(n);
         ans.resize(n, 0);
         for (auto &edge : edges) {
