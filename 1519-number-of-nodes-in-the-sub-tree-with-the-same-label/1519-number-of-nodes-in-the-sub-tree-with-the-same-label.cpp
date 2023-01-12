@@ -2,11 +2,10 @@ class Solution {
 public:
     
     vector<int> addVector(vector<int> &a, vector<int> &b) {
-        vector<int> ans(26, 0);
         for (int i = 0; i < 26; i++) {
-            ans[i] += a[i] + b[i];
+            a[i] += b[i];
         }
-        return ans;
+        return a;
     }
     
     vector<int> solve(int cur, int pre, string &labels) {
