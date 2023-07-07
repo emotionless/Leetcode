@@ -4,12 +4,14 @@ public:
         unordered_map<char, char> match;
         unordered_set<char> seen;
         for (int i = 0; i < s.size(); i++) {
+            char next = t[i];
             if (match.find(s[i]) != match.end()) {
-                if (match[s[i]] != t[i]) return false;
+                next = match[s[i]];
             }
             else if (seen.find(t[i]) != seen.end()) {
                 return false;
             }
+            if (next != t[i]) return false;
             match[s[i]] = t[i];
             seen.insert(t[i]);
         }
