@@ -1,18 +1,16 @@
 class Solution {
 public:
-    bool checkArray(vector<int>& nums, int k) {
-        unordered_map<int, int> counter;
+    bool checkArray(vector<int> nums, int k) {
         int cnt = 0;
+        int n = nums.size();
         for (int i = 0; i < nums.size(); i++) {
-            cnt += counter[i];
-            if (nums[i] < cnt) return false;
-            int diff = nums[i] - cnt;
-            if (diff > 0) {
-                if ((i+k) > nums.size()) return false;
-                counter[i+k] -= diff;
-                cnt = nums[i];
+            if (cnt > nums[i]) return false;
+            nums[i] -= cnt;
+            cnt += nums[i];
+            if (i >= (k - 1)) {
+                cnt -= nums[i-k+1];
             }
         }
-        return true;
+        return cnt == 0;
     }
 };
