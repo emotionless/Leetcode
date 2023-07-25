@@ -14,7 +14,7 @@ public:
                 int mx = *it;
                 if ((mx-mn) > 2) {
                     j--;
-                    container.erase(nums[j]);
+                    container.erase(container.find(nums[j]));
                     break;
                 }
             }
