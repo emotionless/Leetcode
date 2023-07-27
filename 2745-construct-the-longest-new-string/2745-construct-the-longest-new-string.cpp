@@ -2,13 +2,8 @@ class Solution {
 public:
     int longestString(int x, int y, int z) {
         int mn = min(x, y);
-        mn = min(mn, z);
-        x -= mn;
-        y -= mn;
-        z -= mn;
-        int ans = mn*6;
-        if (z == 0) return ans + ((x == y)? (x+y)*2 : (min(x, y)*4 + 2));
-        return ans + ((x > 0 || y > 0)? 2 : 0) + z*2;
+        if (x == y) return (x+y+z)*2;
+        return z*2 + mn*4 + 2;
     }
 };
 /*
