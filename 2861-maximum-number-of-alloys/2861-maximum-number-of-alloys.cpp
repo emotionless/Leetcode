@@ -10,7 +10,7 @@ public:
 private:
     int maxAlloy(vector<int> &composition, int budget, vector<int> &stock, vector<int> &cost) {
         int n = composition.size();
-        int st = 0, ed = 1000000000;
+        int st = 0, ed = INT_MAX;
         int ans = 0;
         while (st <= ed) {
             int mid = (st + ed) / 2;
