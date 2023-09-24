@@ -8,11 +8,8 @@ class Solution {
             for (int i = 0; i <= k; i++) {
                 int x1 = x^i;
                 int y1 = y^(k - i);
-                if (count.containsKey(x1)) {
-                    Map<Integer, Integer> value = count.get(x1);
-                    if (value.containsKey(y1)) {
-                        ans += value.get(y1);
-                    }
+                if (count.containsKey(x1) && count.get(x1).containsKey(y1)) {
+                    ans += count.get(x1).get(y1);
                 }
             }
             count.computeIfAbsent(x, x1 -> new HashMap<>()).put(y, count.get(x).getOrDefault(y, 0) + 1);
