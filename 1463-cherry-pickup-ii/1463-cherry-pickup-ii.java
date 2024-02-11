@@ -17,11 +17,7 @@ class Solution {
                     int f1 = col1 + i;
                     int f2 = col2 + j;
                     if (f1 < 0 || f1 >= m || f2 < 0 || f2 >= m) continue;
-                    if (f1 == f2) {
-                        ret = Math.max(ret, grid[row + 1][f1] + solve(row + 1, f1, f2, dp, grid));
-                    } else {
-                        ret = Math.max(ret, grid[row + 1][f1] + grid[row + 1][f2] + solve(row + 1, f1, f2, dp, grid));
-                    }
+                    ret = Math.max(ret, grid[row + 1][f1] + (f1!=f2?grid[row + 1][f2] : 0) + solve(row + 1, f1, f2, dp, grid));
                 }
             }
             dp[row][col1][col2] = ret;
