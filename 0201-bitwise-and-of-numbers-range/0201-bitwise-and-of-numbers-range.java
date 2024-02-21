@@ -2,11 +2,10 @@ class Solution {
     public int rangeBitwiseAnd(int left, int right) {
         int diff = right - left;
         int ans = right&left;
-        int mul = 0;
-        System.out.println(ans);
-        while ((1<<mul) <= diff) {
-            ans = ans&(~(1<<mul));
-            mul++;
+        int mul = 1;
+        while (mul <= diff) {
+            ans = ans&(~mul);
+            mul = mul * 2;
             if (ans == 0) break;
         }
         return ans;
