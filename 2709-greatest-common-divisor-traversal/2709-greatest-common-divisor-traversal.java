@@ -19,7 +19,6 @@ class Solution {
     public void dfs(int num, HashMap<Integer, HashSet<Integer>> adj, boolean[] visited) {
         if (visited[num]) return;
         visited[num] = true;
-        // System.out.println(num);
         for (int v : adj.get(num)) {
             dfs(v, adj, visited);
         }
@@ -33,7 +32,6 @@ class Solution {
             int num = nums[i];
             if (num == 1) return false;
             HashSet<Integer> factors = factorize(num);
-            // System.out.println(factors);
             Integer pre = null;
             for (Integer cur : factors) {
                 map.add(cur);
@@ -56,19 +54,11 @@ class Solution {
             }
         }
         
-        System.out.println(adj);
-        
         boolean done = false;
         boolean[] visited = new boolean[100001];
         for (int i : map) {
-            // System.out.println(adj.get(i));
-            if (adj.get(i) != null && !visited[i]) {
-                // System.out.println(i);
-                if (done == true) {
-                    return false;
-                }
+            if (adj.get(i) != null) {
                 dfs(i, adj, visited);
-                done = true;
                 break;
             }
         }
