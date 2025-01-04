@@ -12,11 +12,9 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             counter[(int)(s.charAt(i) - 'a')]--;
             for (int j = 0; j < 26; j++) {
-                if (counter2[j] != 0){
-                    if (counter[j] != 0) {
-                        int num = j*10000 + (s.charAt(i) - 'a')*100 + j;
-                        myHashSet.add(num);
-                    }
+                if (counter2[j] != 0 && counter[j] != 0){
+                    int num = j*10000 + (s.charAt(i) - 'a')*100 + j;
+                    myHashSet.add(num);
                 }
             }
             
