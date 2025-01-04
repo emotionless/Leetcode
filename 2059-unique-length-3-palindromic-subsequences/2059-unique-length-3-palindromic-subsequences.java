@@ -1,6 +1,6 @@
 class Solution {
     public int countPalindromicSubsequence(String s) {
-        boolean[] myHashSet = new boolean[2630];
+        boolean[] myHashSet = new boolean[2530];
         int[] counter = new int[26];
         int[] counter2 = new int[26];
         int len = s.length();
