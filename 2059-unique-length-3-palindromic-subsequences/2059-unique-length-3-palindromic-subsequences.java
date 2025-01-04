@@ -1,6 +1,6 @@
 class Solution {
     public int countPalindromicSubsequence(String s) {
-        HashSet<Integer> myHashSet = new HashSet<Integer>();
+        int[] myHashSet = new int[2630];
         int[] counter = new int[26];
         int[] counter2 = new int[26];
         int len = s.length();
@@ -14,13 +14,17 @@ class Solution {
             counter[(int)(s.charAt(i) - 'a')]--;
             for (int j = 0; j < 26; j++) {
                 if (counter2[j] != 0 && counter[j] != 0){
-                    int num = j*10000 + (s.charAt(i) - 'a')*100 + j;
-                    myHashSet.add(num);
+                    int num = j*100 + (s.charAt(i) - 'a');
+                    myHashSet[num] = 1;
                 }
             }
             
             counter2[(int)(s.charAt(i) - 'a')]++;
         }
-        return myHashSet.size();
+        int ans = 0;
+        for (int i : myHashSet) {
+            ans += i;
+        }
+        return ans;
     }
 }
