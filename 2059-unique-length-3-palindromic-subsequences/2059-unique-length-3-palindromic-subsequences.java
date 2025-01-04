@@ -4,9 +4,7 @@ class Solution {
         int[] counter = new int[26];
         int[] counter2 = new int[26];
         int len = s.length();
-        for (int i = 0; i < 26; i++) {
-            counter[i] = counter2[i] = 0;
-        }
+        
         for (int i = 0; i < len; i++) {
             counter[(int)(s.charAt(i) - 'a')]++;
         }
