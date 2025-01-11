@@ -1,7 +1,8 @@
 class Solution {
     public boolean canConstruct(String s, int k) {
-        int[] counter = new int[26];
         int len = s.length();
+        if (k > len) return false;
+        int[] counter = new int[26];
         for (int i = 0; i < len; i++) {
             char ch = s.charAt(i);
             counter[ch - 'a']++;
@@ -12,7 +13,6 @@ class Solution {
                 odd++;
             }
         }
-        if (k >= odd && k <= len) return true;
-        return false;
+        return odd <= k;
     }
 }
