@@ -1,7 +1,8 @@
 class Solution {
     public int minimumLength(String s) {
         int[] counter = new int[26];
-        for (int i = 0; i < s.length(); i++) {
+        int len = s.length();
+        for (int i = 0; i < len; i++) {
             int id = s.charAt(i) - 'a';
             counter[id]++;
             if (counter[id] == 3) {
