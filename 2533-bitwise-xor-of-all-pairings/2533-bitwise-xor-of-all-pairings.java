@@ -8,11 +8,9 @@ class Solution {
         return sum;
     }
     public int xorAllNums(int[] nums1, int[] nums2) {
-        int n1 = nums1.length;
-        int n2 = nums2.length;
         int ans = 0;
-        if (n1%2==1) ans ^= xorOfArray(nums2);
-        if (n2%2==1) ans ^= xorOfArray(nums1);
+        if (nums1.length%2==1) ans ^= xorOfArray(nums2);
+        if (nums2.length%2==1) ans ^= xorOfArray(nums1);
         return ans;
     }
 }
