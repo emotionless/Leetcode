@@ -7,6 +7,7 @@ class Solution {
         for (int i = 0; i < graph[cur].length; i++) {
             if (dfs(graph[cur][i], visited, graph) == -1) {
                 allOkay = false;
+                break;
             }
         }
         if (allOkay) visited[cur] = 1;
