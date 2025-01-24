@@ -1,7 +1,7 @@
 class Solution {
     int dfs(int cur, int[] visited, int[][] graph) {
         if (visited[cur] != 0) return visited[cur];
-        if (graph[cur].length == 0) return 1;
+        if (graph[cur].length == 0) return visited[cur] = 1;
         boolean allOkay = true;
         visited[cur] = -1;
         for (int i = 0; i < graph[cur].length; i++) {
