@@ -1,24 +1,15 @@
 class Solution {
     public int tupleSameProduct(int[] nums) {
+        HashMap<Integer, Integer> counter = new HashMap<>();
         int n = nums.length;
-        Arrays.sort(nums);
         int ans = 0;
         for (int i = 0; i < n; i++) {
-            for (int k = i + 1; k < n; k++) {
-                int j = i + 1;
-                int l = k + 1;
-                while (j < k && l < n) {
-                    if (nums[i]*nums[l] < nums[j]*nums[k]) {
-                        l++;
-                    } else if (nums[i]*nums[l] > nums[j]*nums[k]) {
-                        j++;
-                    } else {
-                        ans++;
-                        j++;
-                    }
-                }
+            for (int j = i + 1; j < n; j++) {
+                int mul = nums[i] * nums[j];
+                ans += counter.getOrDefault(mul, 0) * 8;
+                counter.put(mul, counter.getOrDefault(mul, 0) + 1);
             }
         }
-        return ans * 8;
+        return ans;
     }
 }
