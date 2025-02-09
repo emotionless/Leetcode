@@ -7,13 +7,13 @@ class Solution {
         counter.put(diff, counter.getOrDefault(diff, 0) + 1);
        }
        long sum = 0;
-       for (Map.Entry<Integer, Integer> entry : counter.entrySet()) {
-        sum += entry.getValue();
+       for (Integer value : counter.values()) {
+        sum += value;
        }
        long ans = 0;
-       for (Map.Entry<Integer, Integer> entry : counter.entrySet()) {
-        sum -= entry.getValue();
-        ans += sum * entry.getValue();
+       for (Integer value : counter.values()) {
+        sum -= value;
+        ans += sum * value;
        }
        return ans;
     }
