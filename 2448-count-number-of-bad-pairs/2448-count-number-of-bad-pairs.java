@@ -6,10 +6,7 @@ class Solution {
         int diff = i - nums[i];
         counter.put(diff, counter.getOrDefault(diff, 0) + 1);
        }
-       long sum = 0;
-       for (Integer value : counter.values()) {
-        sum += value;
-       }
+       long sum = n;
        long ans = 0;
        for (Integer value : counter.values()) {
         sum -= value;
