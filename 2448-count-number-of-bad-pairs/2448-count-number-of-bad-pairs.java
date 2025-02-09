@@ -1,3 +1,4 @@
+import java.util.Collection;
 class Solution {
     public long countBadPairs(int[] nums) {
        int n = nums.length;
@@ -8,7 +9,8 @@ class Solution {
        }
        long sum = n;
        long ans = 0;
-       for (Integer value : counter.values()) {
+       Collection<Integer> values = counter.values();
+       for (Integer value : values) {
         sum -= value;
         ans += sum * value;
        }
