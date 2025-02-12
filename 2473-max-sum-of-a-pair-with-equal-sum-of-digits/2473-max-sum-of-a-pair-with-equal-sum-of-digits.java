@@ -9,8 +9,6 @@ class Solution {
         return sum;
     }
     public int maximumSum(int[] nums) {
-        Arrays.sort(nums);
-        System.out.println(Arrays.toString(nums));
         int n = nums.length;
         int[] visited = new int[100];
         int ans = -1;
@@ -19,7 +17,7 @@ class Solution {
             if (visited[sum] != 0) {
                 ans = Math.max(ans, visited[sum] + nums[i]);
             }
-            visited[sum] = nums[i];
+            visited[sum] = Math.max(visited[sum], nums[i]);
         }
         return ans;
     }
