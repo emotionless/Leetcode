@@ -1,14 +1,14 @@
 class Solution {
-    boolean isPrime(int num, int[] prime) {
-        return prime[num] == 0;
+    boolean isPrime(int num, boolean[] prime) {
+        return prime[num] == false;
     }
     public int[] closestPrimes(int left, int right) {
-        int[] prime = new int[right + 1];
-        prime[1] = 1;
+        boolean[] prime = new boolean[right + 1];
+        prime[1] = true;
         for (int i = 2; i <= right; i++) {
-            if (prime[i] == 1) continue;
+            if (prime[i] == true) continue;
             for (int j = i + i; j <= right; j+=i) {
-                prime[j] = 1;
+                prime[j] = true;
             }
         }
         int pre = -1;
