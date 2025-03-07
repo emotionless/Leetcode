@@ -1,20 +1,21 @@
 class Solution {
-    boolean isPrime(int num) {
-        if (num == 2) return true;
-        else if (num % 2 == 0 || num == 1) return false;
-        for (int i = 3; i*i <= num; i+=2) {
-            if (num %i == 0) {
-                return false;
-            }
-        }
-        return true;
+    boolean isPrime(int num, int[] prime) {
+        return prime[num] == 0;
     }
     public int[] closestPrimes(int left, int right) {
+        int[] prime = new int[right + 1];
+        prime[1] = 1;
+        for (int i = 2; i <= right; i++) {
+            if (prime[i] == 1) continue;
+            for (int j = i + i; j <= right; j+=i) {
+                prime[j] = 1;
+            }
+        }
         int pre = -1;
         int first = -1, second = -1;
         int ans = 1000000;
         for (int i = left; i <= right; i++) {
-            if (isPrime(i)) {
+            if (isPrime(i, prime)) {
                 if (pre != -1) {
                     if ((i - pre) < ans) {
                         ans = i - pre;
