@@ -13,7 +13,7 @@ class Solution {
         }
         int pre = -1;
         int first = -1, second = -1;
-        int ans = 1000000;
+        int ans = right + 1;
         for (int i = left; i <= right; i++) {
             if (isPrime(i, prime)) {
                 if (pre != -1) {
