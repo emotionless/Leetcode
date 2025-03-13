@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
 
     boolean doesApplyZero(int[] nums, int[][] queries, int k) {
@@ -18,6 +19,14 @@ class Solution {
     }
 
     public int minZeroArray(int[] nums, int[][] queries) {
+        boolean ck = false;
+        for (int num : nums) {
+            if (num > 0) {
+                ck = true;
+                break;
+            }
+        }
+        if (ck == false) return 0;
         int st = 0, ed = queries.length - 1;
         int ans = -2;
         while (st <= ed) {
