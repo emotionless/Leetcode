@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimize-maximum-of-array/">2439. Minimize Maximum of Array</a></h2><h3>Medium</h3><hr><div><p>You are given a <strong>0-indexed</strong> array <code>nums</code> comprising of <code>n</code> non-negative integers.</p>
+<h2><a href="https://leetcode.com/problems/minimize-maximum-of-array/">2439. Minimize Maximum of Array</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> array <code>nums</code> comprising of <code>n</code> non-negative integers.</p>
 
 <p>In one operation, you must:</p>
 
@@ -13,7 +13,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,7,1,6]
+<pre>
+<strong>Input:</strong> nums = [3,7,1,6]
 <strong>Output:</strong> 5
 <strong>Explanation:</strong>
 One set of optimal operations is as follows:
@@ -26,7 +27,8 @@ Therefore, we return 5.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [10,1]
+<pre>
+<strong>Input:</strong> nums = [10,1]
 <strong>Output:</strong> 10
 <strong>Explanation:</strong>
 It is optimal to leave nums as is, and since 10 is the maximum value, we return 10.
@@ -40,4 +42,3 @@ It is optimal to leave nums as is, and since 10 is the maximum value, we return 
 	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
-</div>
