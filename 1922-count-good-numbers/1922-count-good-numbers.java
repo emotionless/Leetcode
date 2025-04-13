@@ -13,20 +13,6 @@ class Solution {
         return ans;
     }
 
-    public static long modPow(long a, long b, long c) {
-        long result = 1;
-        a = a % c;
-
-        while (b > 0) {
-            if ((b & 1) == 1) {
-                result = (result * a) % c;
-            }
-            a = (a * a) % c;
-            b >>= 1;
-        }
-        return result;
-    }
-
     public int countGoodNumbers(long n) {
         long mod = 1000000007L;
         // System.out.println(bigMod(5, 3, mod));
