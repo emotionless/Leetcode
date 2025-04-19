@@ -31,7 +31,7 @@ class Solution {
 
             int ed = getLessPosition(nums, nums[i], upper, false);
             ans += Math.max(0, ed - st + 1);
-            System.out.println(i + " " + st + " " + ed);
+            // System.out.println(i + " " + st + " " + ed);
         }
         return ans;
     }
