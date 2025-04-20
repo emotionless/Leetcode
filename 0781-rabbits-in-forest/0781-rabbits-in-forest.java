@@ -1,19 +1,14 @@
 class Solution {
 
     int decrement(HashMap<Integer, Integer> rabbits, int col) {
-        if (!rabbits.containsKey(col)) {
+        if (!rabbits.containsKey(col) || rabbits.get(col) == 0) {
             rabbits.put(col, col);
             return col;
         }
         int cur = rabbits.get(col);
         cur--;
-        if (cur == -1) {
-            rabbits.put(col, col);
-            return col;
-        } else {
-            rabbits.put(col, cur);
-            return cur;
-        }
+        rabbits.put(col, cur);
+        return cur;
     }
 
     public int numRabbits(int[] answers) {
