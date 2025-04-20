@@ -5,10 +5,8 @@ class Solution {
             rabbits.put(col, col);
             return col;
         }
-        int cur = rabbits.get(col);
-        cur--;
-        rabbits.put(col, cur);
-        return cur;
+        rabbits.put(col, rabbits.get(col) - 1);
+        return rabbits.get(col);
     }
 
     public int numRabbits(int[] answers) {
