@@ -18,7 +18,7 @@ class Solution {
     public int minTimeToReach(int[][] moveTime) {
         int n = moveTime.length;
         int m = moveTime[0].length;
-        boolean[][][] visited = new boolean[n][m][3];
+        boolean[][] visited = new boolean[n][m];
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.offer(new Node(0, 0, 0, 0));
 
@@ -28,14 +28,14 @@ class Solution {
             int y = top.y;
             int cost = top.cost;
             int sec = top.sec;
-            if (visited[x][y][sec]) continue;
+            if (visited[x][y]) continue;
             else if (x == (n-1) && y == (m-1)) return cost;
-            visited[x][y][sec] = true;
+            visited[x][y] = true;
             for (int i = 0; i < 4; i++) {
                 int ax = x + dr[i];
                 int ay = y + dc[i];
                 int as = sec%2 + 1;
-                if (ax < 0 || ax >= n || ay < 0 || ay >= m || visited[ax][ay][as] == true) continue;
+                if (ax < 0 || ax >= n || ay < 0 || ay >= m || visited[ax][ay] == true) continue;
                 pq.offer(new Node(ax, ay, Math.max(cost + as, as + moveTime[ax][ay]), as));
             }
         }
