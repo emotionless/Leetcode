@@ -27,7 +27,6 @@ class Solution {
     }
     public List<String> getWordsInLongestSubsequence(String[] words, int[] groups) {
         int wn = words.length;
-        int gn = groups.length;
         int[] dp = new int[wn];
         Arrays.fill(dp, -1);
         int mx = -1;
