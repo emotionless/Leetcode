@@ -4,7 +4,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## String
-|  |
+|  
 | ------- |
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/emotionless/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
