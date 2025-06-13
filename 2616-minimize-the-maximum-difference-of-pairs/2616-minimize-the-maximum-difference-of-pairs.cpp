@@ -6,9 +6,10 @@ public:
             if (nums[i] - nums[i-1] <= diff) {
                 p--;
                 i++;
+                if (p <= 0) return true;
             }
         }
-        return p <= 0;
+        return false;
     }
 
     int minimizeMax(vector<int>& nums, int p) {
