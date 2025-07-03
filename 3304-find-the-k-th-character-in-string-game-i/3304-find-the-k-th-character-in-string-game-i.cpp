@@ -5,7 +5,7 @@ public:
     int getPrePos(int cur) {
         int last = 0;
         for (int i = 0; i < 30; i++) {
-            if (power[i] > cur) {
+            if (power[i] >= cur) {
                 break;
             }
             last = power[i];
