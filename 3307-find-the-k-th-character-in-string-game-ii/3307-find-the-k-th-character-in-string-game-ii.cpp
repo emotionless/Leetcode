@@ -27,21 +27,16 @@ public:
                 break;
             }
         }
-        cout << p << endl;
         int steps = 0;
         vector<int> container;
         while (p >= 1) {
             steps++;
-            // cout << k << " " << p << " ";
             if (k > p) {
                 k = getPrePos(k);
                 container.push_back(1);
-                // cout << 1 << " ";
             } else {
                 container.push_back(0);
-                // cout << 0 << " ";
             }
-            // cout << endl;
             p /= 2ll;
         }
         reverse(container.begin(), container.end());
