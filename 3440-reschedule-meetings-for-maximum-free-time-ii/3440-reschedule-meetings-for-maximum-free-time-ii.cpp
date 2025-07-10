@@ -17,13 +17,11 @@ public:
         mx[sz - 1] =  container[sz - 1];
         for (int i =  sz - 2; i >= 0; i--) {
             mx[i] = max(container[i], mx[i+1]);
-            // cout << mx[i] << " ";
         }
         int leftMx = 0;
         int ans = 0;
         for (int i = 0; i < sz - 2; i++) {
             int rightMx = mx[i+2];  // check validation
-            // cout << leftMx << " " << (endTime[i] - startTime[i]) << " " << rightMx << endl;
             if (max(leftMx, rightMx) >= (endTime[i] - startTime[i])) {
                 ans = max(ans, container[i] + container[i+1] +  (endTime[i] - startTime[i]));
             } else  {
