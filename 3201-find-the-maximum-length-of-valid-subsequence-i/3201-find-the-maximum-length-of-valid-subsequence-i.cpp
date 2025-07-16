@@ -11,6 +11,13 @@ public:
         return cnt;
     }
     int maximumLength(vector<int>& nums) {
-        return max(2, max(getMaxLen(nums, 0), getMaxLen(nums, 1)));
+        int even = 0, odd = 0;
+        for (auto num : nums) {
+            if (num%2==0) even++;
+            else odd++;
+        }
+        int ans = max(even, odd);
+        
+        return max(ans, max(getMaxLen(nums, 0), getMaxLen(nums, 1)));
     }
 };
