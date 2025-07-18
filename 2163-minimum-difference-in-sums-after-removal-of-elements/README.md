@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/">2163. Minimum Difference in Sums After Removal of Elements</a></h2><h3>Hard</h3><hr><div><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> consisting of <code>3 * n</code> elements.</p>
+<h2><a href="https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements">2163. Minimum Difference in Sums After Removal of Elements</a></h2><h3>Hard</h3><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> consisting of <code>3 * n</code> elements.</p>
 
 <p>You are allowed to remove any <strong>subsequence</strong> of elements of size <strong>exactly</strong> <code>n</code> from <code>nums</code>. The remaining <code>2 * n</code> elements will be divided into two <strong>equal</strong> parts:</p>
 
@@ -17,9 +17,10 @@
 <p>Return <em>the <strong>minimum difference</strong> possible between the sums of the two parts after the removal of </em><code>n</code><em> elements</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,1,2]
+<pre>
+<strong>Input:</strong> nums = [3,1,2]
 <strong>Output:</strong> -1
 <strong>Explanation:</strong> Here, nums has 3 elements, so n = 1. 
 Thus we have to remove 1 element from nums and divide the array into two equal parts.
@@ -29,9 +30,10 @@ Thus we have to remove 1 element from nums and divide the array into two equal p
 The minimum difference between sums of the two parts is min(-1,1,2) = -1. 
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [7,9,5,8,1,3]
+<pre>
+<strong>Input:</strong> nums = [7,9,5,8,1,3]
 <strong>Output:</strong> 1
 <strong>Explanation:</strong> Here n = 2. So we must remove 2 elements and divide the remaining array into two parts containing two elements each.
 If we remove nums[2] = 5 and nums[3] = 8, the resultant array will be [7,9,1,3]. The difference in sums will be (7+9) - (1+3) = 12.
@@ -47,4 +49,3 @@ It can be shown that it is not possible to obtain a difference smaller than 1.
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
-</div>
