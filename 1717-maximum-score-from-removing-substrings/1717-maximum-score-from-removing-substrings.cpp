@@ -1,6 +1,6 @@
 class Solution {
 public:
-    pair<string, int> removeAndGetScore(string s, int cost, string pat) {
+    pair<string, int> removeAndGetScore(string &s, int cost, string pat) {
         stack<char> container;
         int ans = 0;
         for (auto ch : s) {
