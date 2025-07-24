@@ -1,3 +1,4 @@
+// copied from Editorial
 class Solution {
 public:
     int calc(int part1, int part2, int part3) {
