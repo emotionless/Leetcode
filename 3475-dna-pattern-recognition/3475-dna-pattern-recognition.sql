@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT sample_id, dna_sequence, species,
+SELECT *,
 CASE
     WHEN dna_sequence LIKE 'ATG%' THEN 1
     ELSE 0
@@ -16,4 +16,5 @@ CASE
     WHEN dna_sequence LIKE '%GGG%' THEN 1
     ELSE 0
 END AS has_ggg
-FROM Samples;
+FROM Samples
+ORDER BY sample_id;
