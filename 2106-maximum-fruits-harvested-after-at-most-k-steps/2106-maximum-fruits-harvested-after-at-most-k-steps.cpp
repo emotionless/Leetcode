@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxTotalFruits(vector<vector<int>>& fruits, int startPos, int k) {
         int n = fruits.size();
-        int mx = max(startPos, fruits[n-1][0]);
+        int mx = fruits[n-1][0];
         vector<int> csum(mx  +  1, 0);
         for (auto fruit : fruits) {
             csum[fruit[0]] = fruit[1];
@@ -11,7 +11,7 @@ public:
             csum[i] += csum[i-1]; 
         }
         int ans = 0;
-        for (int i = max(0, startPos - k); i <= startPos; i++) {
+        for (int i = max(0, startPos - k); i <= startPos && i <= mx; i++) {
             int cur = getCumulativeSum(i, startPos, csum);
             int remaining = k - 2*(startPos - i);
             if (remaining >  0) {
@@ -19,7 +19,7 @@ public:
             }
             ans = max(ans, cur);
         }
-        for (int i = startPos + 1; i <= startPos + k; i++) {
+        for (int i = startPos + 1; i <= (startPos + k) && i <= mx ; i++) {
             int cur = getCumulativeSum(startPos, i, csum);
             int remaining = k - 2*(i - startPos);
             if (remaining >  0) {
