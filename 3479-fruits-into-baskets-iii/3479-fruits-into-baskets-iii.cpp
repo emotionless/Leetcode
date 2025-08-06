@@ -1,3 +1,7 @@
+/**
+IDEA: Square root decomposition on baskets and store the maximum on each block.
+Update if maximum value on a block is >= fruit (0...n)
+*/
 class Solution {
 public:
 
