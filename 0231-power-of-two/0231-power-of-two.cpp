@@ -1,8 +1,14 @@
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
-        if (n < 0) return false;
-        int sq = __builtin_popcount(n);
-        return sq == 1;
+        if (n <= 0) return false;
+        return (n&(n-1)) == 0;
     }
 };
+
+/**
+10000
+01111
+101011
+
+*/
