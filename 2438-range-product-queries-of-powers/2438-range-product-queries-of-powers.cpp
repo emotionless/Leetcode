@@ -8,13 +8,18 @@ public:
                 container.push_back(1<<i);
             }
         }
+        int sz = container.size();
+        vector<vector<int>> dp(sz, vector<int>(sz, 0ll));
+        for (int i = 0;  i < sz;  i++) {
+            long long ans = 1ll;
+            for (int j = i; j < sz; j++) {
+                ans = (ans*container[j]) % MOD;
+                dp[i][j] = ans;
+            }
+        }
         vector<int>  result;
         for (auto query : queries) {
-            long long ans = 1ll;
-            for (int i = query[0]; i <= query[1]; i++) {
-                ans = (ans * container[i]) % MOD;
-            }
-            result.push_back(ans);
+            result.push_back(dp[query[0]][query[1]]);
         }
         return result;
     }
