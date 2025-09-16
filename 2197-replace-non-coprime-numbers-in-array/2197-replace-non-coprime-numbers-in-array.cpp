@@ -31,7 +31,6 @@ public:
             }
         }
         int sz = container.size();
-        cout << sz << endl;
         vector<int> res(sz, 0);
         while (container.size()) {
             res[--sz] = container.top();
