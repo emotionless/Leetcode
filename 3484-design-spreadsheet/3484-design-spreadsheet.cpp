@@ -1,7 +1,7 @@
 class Spreadsheet {
 public:
     Spreadsheet(int rows) {
-        matrix.resize(rows, vector<int>(26, 0));
+        matrix.resize(rows + 1, vector<int>(27, 0));
         // cout << "All okay" << endl;;
     }
     
