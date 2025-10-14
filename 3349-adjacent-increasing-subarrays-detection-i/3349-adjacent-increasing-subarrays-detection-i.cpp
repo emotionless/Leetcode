@@ -5,7 +5,7 @@ public:
         int ans = 0;
         int percent = 0;
         int cnt = 1;
-        for (int i = 1;  i < n; i++) {
+        for (int i = 1;  i < n && ans < k; i++) {
             if (nums[i] > nums[i-1]) cnt++;
             else {
                 percent = cnt;
