@@ -8,9 +8,8 @@ public:
             counter[num]++;
         }
         int ans = n;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n && i < value; i++) {
             int times = counter[i%value];
-            // cout << i << " " << times  << endl;
             ans = min(ans, i + value*times);
         }
         return ans;
