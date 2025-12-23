@@ -3,7 +3,7 @@ public:
     int maxTwoEvents(vector<vector<int>>& events) {
         sort(events.begin(), events.end());
         priority_queue<pair<int, int>> pq;
-        for (auto event : events) {
+        for (auto &event : events) {
             pq.push({-event[1], event[2]});
         }
         int n = events.size();
