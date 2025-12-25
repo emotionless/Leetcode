@@ -8,7 +8,7 @@ class Solution {
         long ans = 0;
         while (k > 0) {
             k--;
-            ans += pq.poll() - cnt;
+            ans += Math.max(0, pq.poll() - cnt);
             cnt++;
         }
         return ans;
