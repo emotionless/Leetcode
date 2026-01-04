@@ -16,7 +16,7 @@ public:
     }
     int sumFourDivisors(vector<int>& nums) {
         int sum = 0;
-        for (auto   num : nums) {
+        for (auto &num : nums) {
             int sod = isFourDivisors(num);
             if (sod != -1) {
                 sum += num + 1;
