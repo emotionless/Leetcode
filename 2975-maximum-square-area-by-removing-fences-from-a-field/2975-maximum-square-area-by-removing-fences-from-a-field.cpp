@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maximizeSquareArea(int m, int n, vector<int>& hFences, vector<int>& vFences) {
-        unordered_set<long long> seenh, seenv;
+        unordered_set<long long> seenh;
         hFences.insert(hFences.begin(), 1);
         hFences.push_back(m);
         vFences.insert(vFences.begin(), 1);
