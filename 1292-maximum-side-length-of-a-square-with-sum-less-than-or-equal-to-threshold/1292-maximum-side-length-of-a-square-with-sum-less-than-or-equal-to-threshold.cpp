@@ -21,7 +21,7 @@ public:
         for (int  i = 0; i  < n; i++)  {
             for (int j  = 0; j < m; j++)  {
                 st = ans + 1;
-                ed  = n;
+                ed  = min(n, m);
                 while (st <= ed) {
                     int mid = (st +  ed) / 2;
                     if ((i+mid) >= n || (j + mid) >= m) {
