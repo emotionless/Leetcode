@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2358-number-of-ways-to-split-array](https://github.com/emotionless/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/emotionless/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/emotionless/Leetcode/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
+| [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/emotionless/Leetcode/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 | [3427-special-array-ii](https://github.com/emotionless/Leetcode/tree/master/3427-special-array-ii) |
 ## Array
 | Problem Name | Difficulty |
@@ -324,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/emotionless/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/emotionless/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/emotionless/Leetcode/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
+| [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/emotionless/Leetcode/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
