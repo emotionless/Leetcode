@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/emotionless/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/emotionless/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2509-minimize-xor](https://github.com/emotionless/Leetcode/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/emotionless/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
