@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/emotionless/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/emotionless/Leetcode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/emotionless/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/emotionless/Leetcode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1524-string-matching-in-an-array](https://github.com/emotionless/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/emotionless/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/emotionless/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/emotionless/Leetcode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -222,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2573-find-the-string-with-lcp](https://github.com/emotionless/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/emotionless/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/emotionless/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3474-lexicographically-smallest-generated-string](https://github.com/emotionless/Leetcode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/emotionless/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/emotionless/Leetcode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Counting
