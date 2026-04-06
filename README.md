@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0027-remove-element](https://github.com/emotionless/Leetcode/tree/master/0027-remove-element) |
 | [0407-trapping-rain-water-ii](https://github.com/emotionless/Leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [0874-walking-robot-simulation](https://github.com/emotionless/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/emotionless/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/emotionless/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0874-walking-robot-simulation](https://github.com/emotionless/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/emotionless/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/emotionless/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
@@ -333,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/emotionless/Leetcode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0874-walking-robot-simulation](https://github.com/emotionless/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/emotionless/Leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/emotionless/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/emotionless/Leetcode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
