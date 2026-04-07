@@ -12,12 +12,13 @@ public:
             int adjx = x + dirx[dir];
             int adjy = y + diry[dir];
             if (adjx < 0 || adjx >= w || adjy < 0 || adjy >= h) {
-                dir++;
-                dir = dir % 4;
+                
                 num %= 2*(h + w - 2);
                 if (num == 0) {
-                    dir = (dir - 1 + 4) % 4;
+                    return;
                 }
+                dir++;
+                dir = dir % 4;
                 continue;
             }
             num--;
