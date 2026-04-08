@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3548-equal-sum-grid-partition-ii](https://github.com/emotionless/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/emotionless/Leetcode/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/emotionless/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/emotionless/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/emotionless/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/emotionless/Leetcode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Two Pointers
@@ -345,6 +346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/emotionless/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/emotionless/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/emotionless/Leetcode/tree/master/3447-clear-digits) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/emotionless/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Design
 | Problem Name | Difficulty |
@@ -396,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/emotionless/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/emotionless/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
