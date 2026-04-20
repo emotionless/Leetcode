@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/emotionless/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/emotionless/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1980-find-unique-binary-string](https://github.com/emotionless/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/emotionless/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2107-find-unique-binary-string](https://github.com/emotionless/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/emotionless/Leetcode/tree/master/2145-grid-game) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/emotionless/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -243,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1502-construct-k-palindrome-strings](https://github.com/emotionless/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/emotionless/Leetcode/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/emotionless/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/emotionless/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2456-construct-smallest-number-from-di-string](https://github.com/emotionless/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2509-minimize-xor](https://github.com/emotionless/Leetcode/tree/master/2509-minimize-xor) |
 | [2573-find-the-string-with-lcp](https://github.com/emotionless/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
