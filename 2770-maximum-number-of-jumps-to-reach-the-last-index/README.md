@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/">2770. Maximum Number of Jumps to Reach the Last Index</a></h2><h3>Medium</h3><hr><div><p>You are given a <strong>0-indexed</strong> array <code>nums</code> of <code>n</code> integers and an integer <code>target</code>.</p>
+<h2><a href="https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index">2770. Maximum Number of Jumps to Reach the Last Index</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> array <code>nums</code> of <code>n</code> integers and an integer <code>target</code>.</p>
 
 <p>You are initially positioned at index <code>0</code>. In one step, you can jump from index <code>i</code> to any index <code>j</code> such that:</p>
 
@@ -14,7 +14,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,3,6,4,1,2], target = 2
+<pre>
+<strong>Input:</strong> nums = [1,3,6,4,1,2], target = 2
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> To go from index 0 to index n - 1 with the maximum number of jumps, you can perform the following jumping sequence:
 - Jump from index 0 to index 1. 
@@ -24,7 +25,8 @@ It can be proven that there is no other jumping sequence that goes from 0 to n -
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,3,6,4,1,2], target = 3
+<pre>
+<strong>Input:</strong> nums = [1,3,6,4,1,2], target = 3
 <strong>Output:</strong> 5
 <strong>Explanation:</strong> To go from index 0 to index n - 1 with the maximum number of jumps, you can perform the following jumping sequence:
 - Jump from index 0 to index 1.
@@ -36,7 +38,8 @@ It can be proven that there is no other jumping sequence that goes from 0 to n -
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,3,6,4,1,2], target = 0
+<pre>
+<strong>Input:</strong> nums = [1,3,6,4,1,2], target = 0
 <strong>Output:</strong> -1
 <strong>Explanation:</strong> It can be proven that there is no jumping sequence that goes from 0 to n - 1. Hence, the answer is -1. 
 </pre>
@@ -49,4 +52,3 @@ It can be proven that there is no other jumping sequence that goes from 0 to n -
 	<li><code>-10<sup>9</sup>&nbsp;&lt;= nums[i]&nbsp;&lt;= 10<sup>9</sup></code></li>
 	<li><code>0 &lt;= target &lt;= 2 * 10<sup>9</sup></code></li>
 </ul>
-</div>
