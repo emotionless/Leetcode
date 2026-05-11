@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/emotionless/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/emotionless/Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/emotionless/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2553-separate-the-digits-in-an-array](https://github.com/emotionless/Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2564-most-profitable-path-in-a-tree](https://github.com/emotionless/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2573-find-the-string-with-lcp](https://github.com/emotionless/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2615-sum-of-distances](https://github.com/emotionless/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
@@ -408,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/emotionless/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2069-walking-robot-simulation-ii](https://github.com/emotionless/Leetcode/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/emotionless/Leetcode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2553-separate-the-digits-in-an-array](https://github.com/emotionless/Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2751-robot-collisions](https://github.com/emotionless/Leetcode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/emotionless/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/emotionless/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
