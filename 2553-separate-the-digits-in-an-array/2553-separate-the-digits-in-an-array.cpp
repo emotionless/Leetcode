@@ -4,34 +4,14 @@ public:
     vector<int> separateDigits(vector<int>& nums) {
         vector<int>ans;
         for(auto num : nums) {
-            bool ck = false;
-            if (num >= 100000) {
-                ans.push_back(num/100000);
-                num %= 100000;
-                ck = true;
+            vector<int> tmp;
+            while (num) {
+                tmp.push_back(num%10);
+                num /= 10;
             }
-            if (num >= 10000 || ck) {
-                ans.push_back(num/10000);
-                num %= 10000;
-                ck = true;
+            for (int i = tmp.size() - 1; i >= 0; i--) {
+                ans.push_back(tmp[i]);
             }
-            if (num >= 1000 || ck) {
-                ans.push_back(num/1000);
-                num %= 1000;
-                ck = true;
-            }
-            if (num >= 100 || ck) {
-                ans.push_back(num/100);
-                num %= 100;
-                ck = true;
-            }
-
-            if (num >= 10 || ck) {
-                ans.push_back(num/10);
-                num %= 10;
-                ck = true;
-            }
-            ans.push_back(num);
         }
         return ans;
     }
