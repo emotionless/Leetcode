@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-special-positions-in-a-binary-matrix](https://github.com/emotionless/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/emotionless/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/emotionless/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/emotionless/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/emotionless/Leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/emotionless/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/emotionless/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -277,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/emotionless/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/emotionless/Leetcode/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/emotionless/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/emotionless/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/emotionless/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2456-construct-smallest-number-from-di-string](https://github.com/emotionless/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -377,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/emotionless/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/emotionless/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/emotionless/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/emotionless/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
