@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/emotionless/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/emotionless/Leetcode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/emotionless/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2792-neighboring-bitwise-xor](https://github.com/emotionless/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [2906-construct-product-matrix](https://github.com/emotionless/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/emotionless/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -236,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2615-sum-of-distances](https://github.com/emotionless/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
 | [2685-first-completely-painted-row-or-column](https://github.com/emotionless/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2784-check-if-array-is-good](https://github.com/emotionless/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/emotionless/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/emotionless/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/emotionless/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -389,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2463-minimum-total-distance-traveled](https://github.com/emotionless/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/emotionless/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2751-robot-collisions](https://github.com/emotionless/Leetcode/tree/main/2751-robot-collisions/) | Hard |
+| [2784-check-if-array-is-good](https://github.com/emotionless/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/emotionless/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/emotionless/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/emotionless/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
