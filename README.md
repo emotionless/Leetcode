@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2564-most-profitable-path-in-a-tree](https://github.com/emotionless/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2573-find-the-string-with-lcp](https://github.com/emotionless/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2615-sum-of-distances](https://github.com/emotionless/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2685-first-completely-painted-row-or-column](https://github.com/emotionless/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2751-robot-collisions](https://github.com/emotionless/Leetcode/tree/main/2751-robot-collisions/) | Hard |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/emotionless/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/emotionless/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2540-minimum-common-value](https://github.com/emotionless/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/emotionless/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2685-first-completely-painted-row-or-column](https://github.com/emotionless/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/emotionless/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
@@ -265,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/emotionless/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2509-minimize-xor](https://github.com/emotionless/Leetcode/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/emotionless/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/emotionless/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/emotionless/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
