@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2833-furthest-point-from-origin](https://github.com/emotionless/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/emotionless/Leetcode/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/emotionless/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/emotionless/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/emotionless/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/emotionless/Leetcode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/emotionless/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2792-neighboring-bitwise-xor](https://github.com/emotionless/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [2906-construct-product-matrix](https://github.com/emotionless/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/emotionless/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/emotionless/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/emotionless/Leetcode/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/emotionless/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/emotionless/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -252,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/emotionless/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/emotionless/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/emotionless/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/emotionless/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/emotionless/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3488-closest-equal-element-queries](https://github.com/emotionless/Leetcode/tree/main/3488-closest-equal-element-queries/) | Medium |
@@ -283,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/emotionless/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/emotionless/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/emotionless/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
 | Problem Name | Difficulty |
