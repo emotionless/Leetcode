@@ -209,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/emotionless/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/emotionless/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2564-most-profitable-path-in-a-tree](https://github.com/emotionless/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/emotionless/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -226,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/emotionless/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/emotionless/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/emotionless/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/emotionless/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -523,6 +525,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/emotionless/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/emotionless/Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/emotionless/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/emotionless/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/emotionless/Leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/emotionless/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/emotionless/Leetcode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
