@@ -198,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/emotionless/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/emotionless/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/emotionless/Leetcode/tree/main/1861-rotating-the-box/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/emotionless/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2161-partition-array-according-to-given-pivot](https://github.com/emotionless/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2540-minimum-common-value](https://github.com/emotionless/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/emotionless/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -544,6 +545,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/emotionless/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/emotionless/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2456-construct-smallest-number-from-di-string](https://github.com/emotionless/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2751-robot-collisions](https://github.com/emotionless/Leetcode/tree/main/2751-robot-collisions/) | Hard |
 | [3447-clear-digits](https://github.com/emotionless/Leetcode/tree/master/3447-clear-digits) |
@@ -650,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/emotionless/Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/emotionless/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
