@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/emotionless/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/emotionless/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/emotionless/Leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1189-maximum-number-of-balloons](https://github.com/emotionless/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/emotionless/Leetcode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/emotionless/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1502-construct-k-palindrome-strings](https://github.com/emotionless/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -276,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/emotionless/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/emotionless/Leetcode/tree/master/1160-letter-tile-possibilities) |
+| [1189-maximum-number-of-balloons](https://github.com/emotionless/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/emotionless/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1364-tuple-with-same-product](https://github.com/emotionless/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/emotionless/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -369,6 +371,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1160-letter-tile-possibilities](https://github.com/emotionless/Leetcode/tree/master/1160-letter-tile-possibilities) |
+| [1189-maximum-number-of-balloons](https://github.com/emotionless/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1364-tuple-with-same-product](https://github.com/emotionless/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/emotionless/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/emotionless/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
