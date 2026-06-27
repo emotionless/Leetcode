@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2792-neighboring-bitwise-xor](https://github.com/emotionless/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [2906-construct-product-matrix](https://github.com/emotionless/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/emotionless/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/emotionless/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/emotionless/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/emotionless/Leetcode/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3093-longest-common-suffix-queries](https://github.com/emotionless/Leetcode/tree/main/3093-longest-common-suffix-queries/) | Hard |
@@ -301,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/emotionless/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/emotionless/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/emotionless/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/emotionless/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/emotionless/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/emotionless/Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/emotionless/Leetcode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
@@ -667,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/emotionless/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/emotionless/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/emotionless/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/emotionless/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
