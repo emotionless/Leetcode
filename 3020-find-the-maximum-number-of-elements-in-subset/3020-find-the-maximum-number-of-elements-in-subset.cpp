@@ -13,12 +13,12 @@ public:
                 one+=1;
                 continue;
             }
-            if (vis.contains(num)) continue;
+            // if (vis.contains(num)) continue;
             int cnt = 0;
             while (num <= 1e9 && counter[num] >= 2) {
                 num *= num;
                 cnt++;
-                vis.insert(num);
+                // vis.insert(num);
             }
             if (counter[num] == 1) cnt++;
             mx = max(mx, cnt);
