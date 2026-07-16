@@ -214,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/emotionless/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/emotionless/Leetcode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3838-weighted-word-mapping](https://github.com/emotionless/Leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -228,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/emotionless/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/emotionless/Leetcode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/emotionless/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/emotionless/Leetcode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/emotionless/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/emotionless/Leetcode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -556,6 +559,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/emotionless/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/emotionless/Leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -600,6 +604,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/emotionless/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3783-mirror-distance-of-an-integer](https://github.com/emotionless/Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -674,6 +679,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/emotionless/Leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/emotionless/Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
