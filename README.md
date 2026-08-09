@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/emotionless/Leetcode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/emotionless/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/emotionless/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/emotionless/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/emotionless/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2107-find-unique-binary-string](https://github.com/emotionless/Leetcode/tree/master/2107-find-unique-binary-string) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1727-largest-submatrix-with-rearrangements](https://github.com/emotionless/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/emotionless/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/emotionless/Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/emotionless/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2126-destroying-asteroids](https://github.com/emotionless/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/emotionless/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -418,6 +420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1396-count-servers-that-communicate](https://github.com/emotionless/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/emotionless/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/emotionless/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 | [2448-count-number-of-bad-pairs](https://github.com/emotionless/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2833-furthest-point-from-origin](https://github.com/emotionless/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3312-sorted-gcd-pair-queries](https://github.com/emotionless/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
@@ -609,6 +612,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1840-maximum-building-height](https://github.com/emotionless/Leetcode/tree/main/1840-maximum-building-height/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/emotionless/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/emotionless/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/emotionless/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2448-count-number-of-bad-pairs](https://github.com/emotionless/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/emotionless/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -792,14 +796,21 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/emotionless/Leetcode/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
+## Nim Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 <!---LeetCode Topics End-->
