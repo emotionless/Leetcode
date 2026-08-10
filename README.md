@@ -607,6 +607,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1344-angle-between-hands-of-a-clock](https://github.com/emotionless/Leetcode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
 | [1477-product-of-the-last-k-numbers](https://github.com/emotionless/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [1622-fancy-sequence](https://github.com/emotionless/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/emotionless/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1840-maximum-building-height](https://github.com/emotionless/Leetcode/tree/main/1840-maximum-building-height/) | Hard |
@@ -679,6 +680,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/emotionless/Leetcode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1340-jump-game-v](https://github.com/emotionless/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/emotionless/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/emotionless/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/emotionless/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -796,21 +798,29 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/emotionless/Leetcode/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/emotionless/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 ## Nim Game
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
+## Sprague–Grundy Theorem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1510-stone-game-iv](https://github.com/emotionless/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 <!---LeetCode Topics End-->
