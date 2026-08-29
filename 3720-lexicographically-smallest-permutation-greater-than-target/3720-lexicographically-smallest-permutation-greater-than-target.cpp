@@ -40,7 +40,7 @@ public:
             ans.resize(i+1);
         }
         if (ans.size() == 0) return "";
-        cout  << ans << endl;
+        // cout  << ans << endl;
 
         for (char c = 'a'; c <= 'z'; c++) {
             while (counter[c] > 0) {
