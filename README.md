@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/emotionless/Leetcode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3838-weighted-word-mapping](https://github.com/emotionless/Leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
+| [3876-construct-uniform-parity-array-ii](https://github.com/emotionless/Leetcode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -660,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3783-mirror-distance-of-an-integer](https://github.com/emotionless/Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
+| [3876-construct-uniform-parity-array-ii](https://github.com/emotionless/Leetcode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
