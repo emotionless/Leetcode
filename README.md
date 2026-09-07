@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/emotionless/Leetcode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0796-rotate-string](https://github.com/emotionless/Leetcode/tree/main/0796-rotate-string/) | Easy |
+| [0940-distinct-subsequences-ii](https://github.com/emotionless/Leetcode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/emotionless/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/emotionless/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -702,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/emotionless/Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0877-stone-game](https://github.com/emotionless/Leetcode/tree/main/0877-stone-game/) | Medium |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/emotionless/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0940-distinct-subsequences-ii](https://github.com/emotionless/Leetcode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [1140-stone-game-ii](https://github.com/emotionless/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1170-shortest-common-supersequence](https://github.com/emotionless/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/emotionless/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
