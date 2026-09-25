@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/emotionless/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/emotionless/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1160-letter-tile-possibilities](https://github.com/emotionless/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/emotionless/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1189-maximum-number-of-balloons](https://github.com/emotionless/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -297,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/emotionless/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0684-redundant-connection](https://github.com/emotionless/Leetcode/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/emotionless/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1306-jump-game-iii](https://github.com/emotionless/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/emotionless/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/emotionless/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -327,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/emotionless/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/emotionless/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/emotionless/Leetcode/tree/master/0952-word-subsets) |
+| [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1160-letter-tile-possibilities](https://github.com/emotionless/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1189-maximum-number-of-balloons](https://github.com/emotionless/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/emotionless/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
@@ -544,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/emotionless/Leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1288-remove-covered-intervals](https://github.com/emotionless/Leetcode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1340-jump-game-v](https://github.com/emotionless/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/emotionless/Leetcode/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
@@ -676,6 +680,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/emotionless/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
+| [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/emotionless/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/emotionless/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2456-construct-smallest-number-from-di-string](https://github.com/emotionless/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -688,6 +693,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1160-letter-tile-possibilities](https://github.com/emotionless/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/emotionless/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/emotionless/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
