@@ -179,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2213-longest-substring-of-one-repeating-character](https://github.com/emotionless/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/emotionless/Leetcode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2292-counting-words-with-a-given-prefix](https://github.com/emotionless/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/emotionless/Leetcode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2358-number-of-ways-to-split-array](https://github.com/emotionless/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/emotionless/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/emotionless/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -443,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/emotionless/Leetcode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2126-destroying-asteroids](https://github.com/emotionless/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/emotionless/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2333-minimum-sum-of-squared-difference](https://github.com/emotionless/Leetcode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2456-construct-smallest-number-from-di-string](https://github.com/emotionless/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2509-minimize-xor](https://github.com/emotionless/Leetcode/tree/master/2509-minimize-xor) |
 | [2573-find-the-string-with-lcp](https://github.com/emotionless/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -491,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/emotionless/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/emotionless/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/emotionless/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/emotionless/Leetcode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2434-design-a-number-container-system](https://github.com/emotionless/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/emotionless/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/emotionless/Leetcode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
@@ -577,6 +580,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/emotionless/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2126-destroying-asteroids](https://github.com/emotionless/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/emotionless/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2333-minimum-sum-of-squared-difference](https://github.com/emotionless/Leetcode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/emotionless/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/emotionless/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2751-robot-collisions](https://github.com/emotionless/Leetcode/tree/main/2751-robot-collisions/) | Hard |
@@ -599,6 +603,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/emotionless/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/emotionless/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/emotionless/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/emotionless/Leetcode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2540-minimum-common-value](https://github.com/emotionless/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/emotionless/Leetcode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3161-block-placement-queries](https://github.com/emotionless/Leetcode/tree/main/3161-block-placement-queries/) | Hard |
