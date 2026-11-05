@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1340-jump-game-v](https://github.com/emotionless/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/emotionless/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1364-tuple-with-same-product](https://github.com/emotionless/Leetcode/tree/master/1364-tuple-with-same-product) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/emotionless/Leetcode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/emotionless/Leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/emotionless/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1396-count-servers-that-communicate](https://github.com/emotionless/Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0027-remove-element](https://github.com/emotionless/Leetcode/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/emotionless/Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/emotionless/Leetcode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/emotionless/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/emotionless/Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/emotionless/Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
@@ -586,6 +588,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1096-brace-expansion-ii](https://github.com/emotionless/Leetcode/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1288-remove-covered-intervals](https://github.com/emotionless/Leetcode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1340-jump-game-v](https://github.com/emotionless/Leetcode/tree/main/1340-jump-game-v/) | Hard |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/emotionless/Leetcode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/emotionless/Leetcode/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/emotionless/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/emotionless/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -620,6 +623,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/emotionless/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/emotionless/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/emotionless/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/emotionless/Leetcode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/emotionless/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/emotionless/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/emotionless/Leetcode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
