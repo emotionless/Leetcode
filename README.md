@@ -484,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3691-maximum-total-subarray-value-ii](https://github.com/emotionless/Leetcode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/emotionless/Leetcode/tree/main/3720-lexicographically-smallest-permutation-greater-than-target/) | Medium |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/emotionless/Leetcode/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/emotionless/Leetcode/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -731,6 +732,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/emotionless/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3783-mirror-distance-of-an-integer](https://github.com/emotionless/Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/emotionless/Leetcode/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/emotionless/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3870-count-commas-in-range](https://github.com/emotionless/Leetcode/tree/main/3870-count-commas-in-range/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/emotionless/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
