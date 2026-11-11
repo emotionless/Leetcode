@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/emotionless/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/emotionless/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2292-counting-words-with-a-given-prefix](https://github.com/emotionless/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2409-count-days-spent-together](https://github.com/emotionless/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/emotionless/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2456-construct-smallest-number-from-di-string](https://github.com/emotionless/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2465-shifting-letters-ii](https://github.com/emotionless/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -712,6 +713,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1979-find-greatest-common-divisor-of-array](https://github.com/emotionless/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2029-stone-game-ix](https://github.com/emotionless/Leetcode/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/emotionless/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2409-count-days-spent-together](https://github.com/emotionless/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
 | [2448-count-number-of-bad-pairs](https://github.com/emotionless/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/emotionless/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/emotionless/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
