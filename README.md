@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/emotionless/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/emotionless/Leetcode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2107-find-unique-binary-string](https://github.com/emotionless/Leetcode/tree/master/2107-find-unique-binary-string) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/emotionless/Leetcode/tree/main/2124-check-if-all-as-appears-before-all-bs/) | Easy |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/emotionless/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2292-counting-words-with-a-given-prefix](https://github.com/emotionless/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2409-count-days-spent-together](https://github.com/emotionless/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
