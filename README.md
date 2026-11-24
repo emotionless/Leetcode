@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/emotionless/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
 | [3364-minimum-positive-sum-subarray](https://github.com/emotionless/Leetcode/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/emotionless/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/emotionless/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/emotionless/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3427-special-array-ii](https://github.com/emotionless/Leetcode/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/emotionless/Leetcode/tree/master/3429-special-array-i) |
@@ -745,6 +746,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/emotionless/Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3312-sorted-gcd-pair-queries](https://github.com/emotionless/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/emotionless/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3411-maximum-subarray-with-equal-products](https://github.com/emotionless/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/emotionless/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/emotionless/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/emotionless/Leetcode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
@@ -869,6 +871,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1979-find-greatest-common-divisor-of-array](https://github.com/emotionless/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [3312-sorted-gcd-pair-queries](https://github.com/emotionless/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/emotionless/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3411-maximum-subarray-with-equal-products](https://github.com/emotionless/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/emotionless/Leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/emotionless/Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/emotionless/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -887,6 +890,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/emotionless/Leetcode/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/emotionless/Leetcode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/emotionless/Leetcode/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
+| [3411-maximum-subarray-with-equal-products](https://github.com/emotionless/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -926,6 +930,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1291-sequential-digits](https://github.com/emotionless/Leetcode/tree/main/1291-sequential-digits/) | Medium |
 | [2778-sum-of-squares-of-special-elements](https://github.com/emotionless/Leetcode/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/emotionless/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+| [3411-maximum-subarray-with-equal-products](https://github.com/emotionless/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/emotionless/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/emotionless/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/emotionless/Leetcode/tree/main/3720-lexicographically-smallest-permutation-greater-than-target/) | Medium |
