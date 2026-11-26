@@ -692,6 +692,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2751-robot-collisions](https://github.com/emotionless/Leetcode/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/emotionless/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/emotionless/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3360-stone-removal-game](https://github.com/emotionless/Leetcode/tree/main/3360-stone-removal-game/) | Easy |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/emotionless/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/emotionless/Leetcode/tree/master/3447-clear-digits) |
 | [3612-process-string-with-special-operations-i](https://github.com/emotionless/Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
@@ -746,6 +747,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/emotionless/Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3312-sorted-gcd-pair-queries](https://github.com/emotionless/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/emotionless/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3360-stone-removal-game](https://github.com/emotionless/Leetcode/tree/main/3360-stone-removal-game/) | Easy |
 | [3411-maximum-subarray-with-equal-products](https://github.com/emotionless/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/emotionless/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/emotionless/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
